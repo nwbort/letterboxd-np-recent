@@ -1,0 +1,44 @@
+{
+  "merge_variables": {
+    "user": "NicoleP",
+    "update_time": "Nov 20, 2025 01:35 AM",
+    "movies": [
+      {
+        "title": "Wicked",
+        "year": "2024",
+        "rating": 2.5,
+        "rating_display": "★★½",
+        "review": "People who enjoy musicals need to be so fr. Would’ve been infinitely improved with less singing. Had to wait 2:40 for Defying Gravity smh.",
+        "date": "Nov 18, 2025",
+        "date_short": "Nov 18",
+        "url": "https://letterboxd.com/nicolep/film/wicked-2024/"
+      },
+      {
+        "title": "Bugonia",
+        "year": "2025",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "More Poor Things Lanthimos and less Kinds of Kindness Lanthimos 👏",
+        "date": "Nov 16, 2025",
+        "date_short": "Nov 16",
+        "url": "https://letterboxd.com/nicolep/film/bugonia/"
+      },
+      {
+        "title": "One Battle After Another",
+        "year": "2025",
+        "rating": 5.0,
+        "rating_display": "★★★★★",
+        "review": "I need to stop procrastinating watching movies simply because they have a 162 minute run time. Viva la revolucion.",
+        "date": "Oct 28, 2025",
+        "date_short": "Oct 28",
+        "url": "https://letterboxd.com/nicolep/film/one-battle-after-another/"
+      }
+    ],
+    "total_activities": 3,
+    "latest_title": "Wicked",
+    "latest_year": "2024",
+    "latest_rating": "★★½",
+    "latest_review": "People who enjoy musicals need to be so fr. Would’ve been infinitely improved with less singing. Had to wait 2:40 for Defying Gravity smh.",
+    "latest_date": "Nov 18, 2025"
+  }
+}

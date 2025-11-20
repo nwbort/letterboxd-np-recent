@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            width: 800px;
+            height: 480px;
+            padding: 30px;
+            background: white;
+            color: black;
+        }
+
+        .header {
+            border-bottom: 3px solid black;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .header .subtitle {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .featured {
+            background: #f5f5f5;
+            border: 2px solid black;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .featured .movie-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .featured .rating {
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+
+        .featured .review {
+            font-size: 14px;
+            line-height: 1.4;
+            margin-bottom: 8px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+
+        .featured .date {
+            font-size: 12px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .recent-list {
+            margin-top: 15px;
+        }
+
+        .recent-list h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        .movie-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .movie-item:last-child {
+            border-bottom: none;
+        }
+
+        .movie-item .title {
+            font-size: 14px;
+            font-weight: bold;
+            flex: 1;
+        }
+
+        .movie-item .year {
+            font-size: 12px;
+            color: #666;
+            margin-left: 10px;
+        }
+
+        .movie-item .rating {
+            font-size: 14px;
+            margin-left: 15px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            font-size: 11px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎬 {{ user }}'s Recent Films</h1>
+        <div class="subtitle">Latest activity from Letterboxd</div>
+    </div>
+
+    {% if latest_title %}
+    <div class="featured">
+        <div class="movie-title">{{ latest_title }} ({{ latest_year }})</div>
+        <div class="rating">{{ latest_rating }}</div>
+        {% if latest_review %}
+        <div class="review">{{ latest_review }}</div>
+        {% endif %}
+        <div class="date">{{ latest_date }}</div>
+    </div>
+    {% endif %}
+
+    {% if movies.size > 1 %}
+    <div class="recent-list">
+        <h2>Also Watched Recently</h2>
+        {% for movie in movies offset:1 limit:3 %}
+        <div class="movie-item">
+            <span class="title">{{ movie.title }}</span>
+            <span class="year">{{ movie.year }}</span>
+            <span class="rating">{{ movie.rating_display }}</span>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="footer">
+        Updated: {{ update_time }}
+    </div>
+</body>
+</html>
