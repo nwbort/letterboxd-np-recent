@@ -1,0 +1,73 @@
+name: Update Letterboxd Data
+
+on:
+  # Run every 2 hours
+  schedule:
+    - cron: '0 */2 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+  # Run on push to main for testing
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Download latest Letterboxd activity
+        run: |
+          echo "📥 Downloading latest activity from Letterboxd..."
+          chmod +x download.sh
+          ./download.sh 'https://letterboxd.com/ajax/activity-pagination/NicoleP/'
+
+      - name: Parse and generate TRMNL JSON
+        run: |
+          echo "🔍 Parsing HTML and generating TRMNL data..."
+          chmod +x parse_letterboxd.py
+          python3 parse_letterboxd.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code letterboxd_trmnl_data.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add letterboxd_trmnl_data.json letterboxd.com-ajax-activity-pagination-NicoleP.html
+          git commit -m "🎬 Update Letterboxd data - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Upload JSON as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: letterboxd-trmnl-data
+          path: letterboxd_trmnl_data.json
+          retention-days: 7
+
+      - name: Summary
+        run: |
+          echo "✅ Update complete!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📊 Latest Activity" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
+          head -20 letterboxd_trmnl_data.json >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
