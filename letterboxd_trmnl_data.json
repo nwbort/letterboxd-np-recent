@@ -1,7 +1,7 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Nov 28, 2025 04:27 PM",
+    "update_time": "Nov 28, 2025 06:30 PM",
     "movies": [
       {
         "title": "Wicked",
@@ -22,19 +22,9 @@
         "date": "Nov 16, 2025",
         "date_short": "Nov 16",
         "url": "https://letterboxd.com/nicolep/film/bugonia/"
-      },
-      {
-        "title": "One Battle After Another",
-        "year": "2025",
-        "rating": 5.0,
-        "rating_display": "★★★★★",
-        "review": "I need to stop procrastinating watching movies simply because they have a 162 minute run time. Viva la revolucion.",
-        "date": "Oct 28, 2025",
-        "date_short": "Oct 28",
-        "url": "https://letterboxd.com/nicolep/film/one-battle-after-another/"
       }
     ],
-    "total_activities": 3,
+    "total_activities": 2,
     "latest_title": "Wicked",
     "latest_year": "2024",
     "latest_rating": "★★½",
