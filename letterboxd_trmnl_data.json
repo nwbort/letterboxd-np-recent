@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Nov 29, 2025 10:20 AM",
+    "update_time": "Nov 29, 2025 12:40 PM",
     "movies": [
+      {
+        "title": "Train Dreams",
+        "year": "2025",
+        "rating": 5.0,
+        "rating_display": "★★★★★",
+        "review": "Sorta like Nomadland circa ~1918.  Loved loved loved.",
+        "date": "Nov 29, 2025",
+        "date_short": "Nov 29",
+        "url": "https://letterboxd.com/nicolep/film/train-dreams/"
+      },
       {
         "title": "Wicked",
         "year": "2024",
@@ -24,11 +34,11 @@
         "url": "https://letterboxd.com/nicolep/film/bugonia/"
       }
     ],
-    "total_activities": 2,
-    "latest_title": "Wicked",
-    "latest_year": "2024",
-    "latest_rating": "★★½",
-    "latest_review": "People who enjoy musicals need to be so fr. Would’ve been infinitely improved with less singing. Had to wait 2:40 for Defying Gravity smh.",
-    "latest_date": "Nov 18, 2025"
+    "total_activities": 3,
+    "latest_title": "Train Dreams",
+    "latest_year": "2025",
+    "latest_rating": "★★★★★",
+    "latest_review": "Sorta like Nomadland circa ~1918.  Loved loved loved.",
+    "latest_date": "Nov 29, 2025"
   }
 }
