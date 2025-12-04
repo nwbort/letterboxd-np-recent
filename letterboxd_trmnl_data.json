@@ -1,7 +1,7 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Dec 04, 2025 03:20 AM",
+    "update_time": "Dec 04, 2025 04:31 AM",
     "movies": [
       {
         "title": "Train Dreams",
@@ -9,8 +9,8 @@
         "rating": 5.0,
         "rating_display": "★★★★★",
         "review": "Sorta like Nomadland circa ~1918.  Loved loved loved.",
-        "date": "Nov 30, 2025",
-        "date_short": "Nov 30",
+        "date": "Nov 29, 2025",
+        "date_short": "Nov 29",
         "url": "https://letterboxd.com/nicolep/film/train-dreams/"
       },
       {
@@ -39,6 +39,6 @@
     "latest_year": "2025",
     "latest_rating": "★★★★★",
     "latest_review": "Sorta like Nomadland circa ~1918.  Loved loved loved.",
-    "latest_date": "Nov 30, 2025"
+    "latest_date": "Nov 29, 2025"
   }
 }
