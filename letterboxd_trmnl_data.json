@@ -1,8 +1,28 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Dec 07, 2025 10:20 AM",
+    "update_time": "Dec 07, 2025 12:39 PM",
     "movies": [
+      {
+        "title": "Christmas Eve in Miller's Point",
+        "year": "2024",
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "2025 Christmas movie #1: not sure what I expected but it wasn’t this. A few select, poignant scenes were doing a lot of heavy lifting for this film. I get it was about the vibe but a more cohesive storyline wouldn’t hurt.",
+        "date": "Dec 07, 2025",
+        "date_short": "Dec 07",
+        "url": "https://letterboxd.com/nicolep/film/christmas-eve-in-millers-point/"
+      },
+      {
+        "title": "Wake Up Dead Man",
+        "year": "2025",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "Might still be going to church if Josh O’Connor was the priest.",
+        "date": "Dec 07, 2025",
+        "date_short": "Dec 07",
+        "url": "https://letterboxd.com/nicolep/film/wake-up-dead-man/"
+      },
       {
         "title": "Train Dreams",
         "year": "2025",
@@ -34,11 +54,11 @@
         "url": "https://letterboxd.com/nicolep/film/bugonia/"
       }
     ],
-    "total_activities": 3,
-    "latest_title": "Train Dreams",
-    "latest_year": "2025",
-    "latest_rating": "★★★★★",
-    "latest_review": "Sorta like Nomadland circa ~1918.  Loved loved loved.",
-    "latest_date": "Nov 29, 2025"
+    "total_activities": 5,
+    "latest_title": "Christmas Eve in Miller's Point",
+    "latest_year": "2024",
+    "latest_rating": "★★★",
+    "latest_review": "2025 Christmas movie #1: not sure what I expected but it wasn’t this. A few select, poignant scenes were doing a lot of heavy lifting for this film. I get it was about the vibe but a more cohesive storyline wouldn’t hurt.",
+    "latest_date": "Dec 07, 2025"
   }
 }
