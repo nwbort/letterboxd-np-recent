@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Dec 10, 2025 10:21 PM",
+    "update_time": "Dec 11, 2025 01:49 AM",
     "movies": [
+      {
+        "title": "Eternity",
+        "year": "2025",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "As an indecisive person that is for sure The Bad Place. Very sweet, lots of laughs and stunning colour grading. Absolutely loved Da'Vine Joy Randolph. Lost a star because of its predictable storyline but I had a good time nevertheless.",
+        "date": "Dec 10, 2025",
+        "date_short": "Dec 10",
+        "url": "https://letterboxd.com/nicolep/film/eternity-2025-1/"
+      },
       {
         "title": "Here",
         "year": "2024",
@@ -42,23 +52,13 @@
         "date": "Nov 29, 2025",
         "date_short": "Nov 29",
         "url": "https://letterboxd.com/nicolep/film/train-dreams/"
-      },
-      {
-        "title": "Wicked",
-        "year": "2024",
-        "rating": 2.5,
-        "rating_display": "★★½",
-        "review": "People who enjoy musicals need to be so fr. Would’ve been infinitely improved with less singing. Had to wait 2:40 for Defying Gravity smh.",
-        "date": "Nov 18, 2025",
-        "date_short": "Nov 18",
-        "url": "https://letterboxd.com/nicolep/film/wicked-2024/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Here",
-    "latest_year": "2024",
-    "latest_rating": "★½",
-    "latest_review": "I’d seen bad reviews but decided to watch this anyway  🤦🏼‍♀️ Distractingly bad animation, way too many underdeveloped storylines I couldn’t care less about. Felt like watching a high school play.",
-    "latest_date": "Dec 09, 2025"
+    "latest_title": "Eternity",
+    "latest_year": "2025",
+    "latest_rating": "★★★★",
+    "latest_review": "As an indecisive person that is for sure The Bad Place. Very sweet, lots of laughs and stunning colour grading. Absolutely loved Da'Vine Joy Randolph. Lost a star because of its predictable storyline but I had a good time nevertheless.",
+    "latest_date": "Dec 10, 2025"
   }
 }
