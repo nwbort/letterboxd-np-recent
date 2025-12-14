@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Dec 14, 2025 08:27 AM",
+    "update_time": "Dec 14, 2025 10:21 AM",
     "movies": [
+      {
+        "title": "Last Holiday",
+        "year": "2006",
+        "rating": 4.5,
+        "rating_display": "★★★★½",
+        "review": "2025 christmas movie #2: They don’t make romcoms like this anymore 🥹 So cosy and laugh out loud funny,  also why did dressing room montage scenes disappear?!",
+        "date": "Dec 14, 2025",
+        "date_short": "Dec 14",
+        "url": "https://letterboxd.com/nicolep/film/last-holiday/"
+      },
       {
         "title": "Eternity",
         "year": "2025",
@@ -42,23 +52,13 @@
         "date": "Dec 07, 2025",
         "date_short": "Dec 07",
         "url": "https://letterboxd.com/nicolep/film/wake-up-dead-man/"
-      },
-      {
-        "title": "Train Dreams",
-        "year": "2025",
-        "rating": 5.0,
-        "rating_display": "★★★★★",
-        "review": "Sorta like Nomadland circa ~1918.  Loved loved loved.",
-        "date": "Nov 29, 2025",
-        "date_short": "Nov 29",
-        "url": "https://letterboxd.com/nicolep/film/train-dreams/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Eternity",
-    "latest_year": "2025",
-    "latest_rating": "★★★★",
-    "latest_review": "As an indecisive person that is for sure The Bad Place. Very sweet, lots of laughs and stunning colour grading. Absolutely loved Da'Vine Joy Randolph. Lost a star because of its predictable storyline but I had a good time nevertheless.",
-    "latest_date": "Dec 10, 2025"
+    "latest_title": "Last Holiday",
+    "latest_year": "2006",
+    "latest_rating": "★★★★½",
+    "latest_review": "2025 christmas movie #2: They don’t make romcoms like this anymore 🥹 So cosy and laugh out loud funny,  also why did dressing room montage scenes disappear?!",
+    "latest_date": "Dec 14, 2025"
   }
 }
