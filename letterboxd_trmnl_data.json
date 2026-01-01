@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jan 01, 2026 02:00 AM",
+    "update_time": "Jan 01, 2026 04:49 AM",
     "movies": [
+      {
+        "title": "Come See Me in the Good Light",
+        "year": "2025",
+        "rating": 4.5,
+        "rating_display": "★★★★½",
+        "review": "Really sad and sweet and life affirming.",
+        "date": "Jan 01, 2026",
+        "date_short": "Jan 01",
+        "url": "https://letterboxd.com/nicolep/film/come-see-me-in-the-good-light/"
+      },
       {
         "title": "The Ref",
         "year": "1994",
@@ -42,23 +52,13 @@
         "date": "Dec 10, 2025",
         "date_short": "Dec 10",
         "url": "https://letterboxd.com/nicolep/film/eternity-2025-1/"
-      },
-      {
-        "title": "Here",
-        "year": "2024",
-        "rating": 1.5,
-        "rating_display": "★½",
-        "review": "I’d seen bad reviews but decided to watch this anyway  🤦🏼‍♀️ Distractingly bad animation, way too many underdeveloped storylines I couldn’t care less about. Felt like watching a high school play.",
-        "date": "Dec 09, 2025",
-        "date_short": "Dec 09",
-        "url": "https://letterboxd.com/nicolep/film/here-2024/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "The Ref",
-    "latest_year": "1994",
-    "latest_rating": "★★½",
-    "latest_review": "2025 Christmas movie #4: Not for me - was hoping for a hidden gem Christmas movie but now I understand why it’s not more widely popular.",
-    "latest_date": "Dec 17, 2025"
+    "latest_title": "Come See Me in the Good Light",
+    "latest_year": "2025",
+    "latest_rating": "★★★★½",
+    "latest_review": "Really sad and sweet and life affirming.",
+    "latest_date": "Jan 01, 2026"
   }
 }
