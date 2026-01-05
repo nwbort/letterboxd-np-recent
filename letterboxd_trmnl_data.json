@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jan 05, 2026 04:57 AM",
+    "update_time": "Jan 05, 2026 06:41 AM",
     "movies": [
+      {
+        "title": "Rental Family",
+        "year": "2025",
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "Was expecting so much more",
+        "date": "Jan 05, 2026",
+        "date_short": "Jan 05",
+        "url": "https://letterboxd.com/nicolep/film/rental-family-2025/"
+      },
       {
         "title": "Come See Me in the Good Light",
         "year": "2025",
@@ -42,23 +52,13 @@
         "date": "Dec 14, 2025",
         "date_short": "Dec 14",
         "url": "https://letterboxd.com/nicolep/film/last-holiday/"
-      },
-      {
-        "title": "Eternity",
-        "year": "2025",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "As an indecisive person that is for sure The Bad Place. Very sweet, lots of laughs and stunning colour grading. Absolutely loved Da'Vine Joy Randolph. Lost a star because of its predictable storyline but I had a good time nevertheless.",
-        "date": "Dec 10, 2025",
-        "date_short": "Dec 10",
-        "url": "https://letterboxd.com/nicolep/film/eternity-2025-1/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Come See Me in the Good Light",
+    "latest_title": "Rental Family",
     "latest_year": "2025",
-    "latest_rating": "★★★★½",
-    "latest_review": "Really sad and sweet and life affirming.",
-    "latest_date": "Jan 01, 2026"
+    "latest_rating": "★★★",
+    "latest_review": "Was expecting so much more",
+    "latest_date": "Jan 05, 2026"
   }
 }
