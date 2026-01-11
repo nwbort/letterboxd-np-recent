@@ -1,8 +1,28 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jan 11, 2026 08:29 AM",
+    "update_time": "Jan 11, 2026 10:23 AM",
     "movies": [
+      {
+        "title": "The Housemaid",
+        "year": "2025",
+        "rating": 1.5,
+        "rating_display": "★½",
+        "review": "Sydney Sweeney the whole movie: 😏 So painfully bad it’s actually quite funny, although I’m not sure that was the intention.",
+        "date": "Jan 11, 2026",
+        "date_short": "Jan 11",
+        "url": "https://letterboxd.com/nicolep/film/the-housemaid-2025/"
+      },
+      {
+        "title": "Singin' in the Rain",
+        "year": "1952",
+        "rating": 5.0,
+        "rating_display": "★★★★★",
+        "review": "✅more ✅tap ✅dancing ✅please",
+        "date": "Jan 11, 2026",
+        "date_short": "Jan 11",
+        "url": "https://letterboxd.com/nicolep/film/singin-in-the-rain/"
+      },
       {
         "title": "Rental Family",
         "year": "2025",
@@ -32,33 +52,13 @@
         "date": "Dec 17, 2025",
         "date_short": "Dec 17",
         "url": "https://letterboxd.com/nicolep/film/the-ref/"
-      },
-      {
-        "title": "A Sunburnt Christmas",
-        "year": "2020",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "2025 Christmas movie #3: Cute Aussie film, worth adding to the Chrissy rotation.",
-        "date": "Dec 14, 2025",
-        "date_short": "Dec 14",
-        "url": "https://letterboxd.com/nicolep/film/a-sunburnt-christmas/"
-      },
-      {
-        "title": "Last Holiday",
-        "year": "2006",
-        "rating": 4.5,
-        "rating_display": "★★★★½",
-        "review": "2025 christmas movie #2: They don’t make romcoms like this anymore 🥹 So cosy and laugh out loud funny,  also why did dressing room montage scenes disappear?!",
-        "date": "Dec 14, 2025",
-        "date_short": "Dec 14",
-        "url": "https://letterboxd.com/nicolep/film/last-holiday/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Rental Family",
+    "latest_title": "The Housemaid",
     "latest_year": "2025",
-    "latest_rating": "★★★",
-    "latest_review": "Was expecting so much more",
-    "latest_date": "Jan 05, 2026"
+    "latest_rating": "★½",
+    "latest_review": "Sydney Sweeney the whole movie: 😏 So painfully bad it’s actually quite funny, although I’m not sure that was the intention.",
+    "latest_date": "Jan 11, 2026"
   }
 }
