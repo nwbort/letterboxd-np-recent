@@ -1,8 +1,28 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jan 18, 2026 04:42 AM",
+    "update_time": "Jan 18, 2026 06:34 AM",
     "movies": [
+      {
+        "title": "Yi Yi",
+        "year": "2000",
+        "rating": 5.0,
+        "rating_display": "★★★★★",
+        "review": "🤘cinema🤘",
+        "date": "Jan 18, 2026",
+        "date_short": "Jan 18",
+        "url": "https://letterboxd.com/nicolep/film/yi-yi/"
+      },
+      {
+        "title": "No Other Choice",
+        "year": "2025",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "I mean I also hate AI so I can see where he’s coming from.",
+        "date": "Jan 18, 2026",
+        "date_short": "Jan 18",
+        "url": "https://letterboxd.com/nicolep/film/no-other-choice-2025/"
+      },
       {
         "title": "The Housemaid",
         "year": "2025",
@@ -32,33 +52,13 @@
         "date": "Jan 05, 2026",
         "date_short": "Jan 05",
         "url": "https://letterboxd.com/nicolep/film/rental-family-2025/"
-      },
-      {
-        "title": "Come See Me in the Good Light",
-        "year": "2025",
-        "rating": 4.5,
-        "rating_display": "★★★★½",
-        "review": "Really sad and sweet and life affirming.",
-        "date": "Jan 01, 2026",
-        "date_short": "Jan 01",
-        "url": "https://letterboxd.com/nicolep/film/come-see-me-in-the-good-light/"
-      },
-      {
-        "title": "The Ref",
-        "year": "1994",
-        "rating": 2.5,
-        "rating_display": "★★½",
-        "review": "2025 Christmas movie #4: Not for me - was hoping for a hidden gem Christmas movie but now I understand why it’s not more widely popular.",
-        "date": "Dec 17, 2025",
-        "date_short": "Dec 17",
-        "url": "https://letterboxd.com/nicolep/film/the-ref/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "The Housemaid",
-    "latest_year": "2025",
-    "latest_rating": "★½",
-    "latest_review": "Sydney Sweeney the whole movie: 😏 So painfully bad it’s actually quite funny, although I’m not sure that was the intention.",
-    "latest_date": "Jan 11, 2026"
+    "latest_title": "Yi Yi",
+    "latest_year": "2000",
+    "latest_rating": "★★★★★",
+    "latest_review": "🤘cinema🤘",
+    "latest_date": "Jan 18, 2026"
   }
 }
