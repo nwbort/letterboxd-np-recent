@@ -1,64 +1,8 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jan 19, 2026 10:23 PM",
-    "movies": [
-      {
-        "title": "Yi Yi",
-        "year": "2000",
-        "rating": 5.0,
-        "rating_display": "★★★★★",
-        "review": "🤘cinema🤘",
-        "date": "Jan 18, 2026",
-        "date_short": "Jan 18",
-        "url": "https://letterboxd.com/nicolep/film/yi-yi/"
-      },
-      {
-        "title": "No Other Choice",
-        "year": "2025",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "I mean I also hate AI so I can see where he’s coming from.",
-        "date": "Jan 18, 2026",
-        "date_short": "Jan 18",
-        "url": "https://letterboxd.com/nicolep/film/no-other-choice-2025/"
-      },
-      {
-        "title": "The Housemaid",
-        "year": "2025",
-        "rating": 1.5,
-        "rating_display": "★½",
-        "review": "Sydney Sweeney the whole movie: 😏 So painfully bad it’s actually quite funny, although I’m not sure that was the intention.",
-        "date": "Jan 11, 2026",
-        "date_short": "Jan 11",
-        "url": "https://letterboxd.com/nicolep/film/the-housemaid-2025/"
-      },
-      {
-        "title": "Singin' in the Rain",
-        "year": "1952",
-        "rating": 5.0,
-        "rating_display": "★★★★★",
-        "review": "✅more ✅tap ✅dancing ✅please",
-        "date": "Jan 11, 2026",
-        "date_short": "Jan 11",
-        "url": "https://letterboxd.com/nicolep/film/singin-in-the-rain/"
-      },
-      {
-        "title": "Rental Family",
-        "year": "2025",
-        "rating": 3.0,
-        "rating_display": "★★★",
-        "review": "Was expecting so much more",
-        "date": "Jan 05, 2026",
-        "date_short": "Jan 05",
-        "url": "https://letterboxd.com/nicolep/film/rental-family-2025/"
-      }
-    ],
-    "total_activities": 5,
-    "latest_title": "Yi Yi",
-    "latest_year": "2000",
-    "latest_rating": "★★★★★",
-    "latest_review": "🤘cinema🤘",
-    "latest_date": "Jan 18, 2026"
+    "update_time": "Jan 20, 2026 01:53 AM",
+    "movies": [],
+    "total_activities": 0
   }
 }
