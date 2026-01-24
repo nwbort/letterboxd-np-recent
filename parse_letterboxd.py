@@ -1,137 +1,116 @@
 #!/usr/bin/env python3
 """
 Letterboxd Activity Parser for TRMNL Display
-Extracts movie reviews and ratings from Letterboxd HTML
+Extracts movie reviews and ratings from Letterboxd RSS feed
 """
 
 import re
 import json
-from html.parser import HTMLParser
+import xml.etree.ElementTree as ET
 from datetime import datetime
-from typing import List, Dict, Optional
+from typing import List, Dict
+from html import unescape
 
 
-class LetterboxdParser(HTMLParser):
-    """Parse Letterboxd activity HTML and extract movie data"""
+def parse_rating_display(rating: float) -> str:
+    """Convert numeric rating to star display (e.g., 4.5 -> ★★★★½)"""
+    full_stars = int(rating)
+    half_star = '½' if (rating % 1) >= 0.5 else ''
+    return '★' * full_stars + half_star
 
-    def __init__(self):
-        super().__init__()
-        self.activities = []
-        self.current_activity = {}
-        self.in_review = False
-        self.in_review_body = False
-        self.in_title = False
-        self.in_rating = False
-        self.current_tag = None
 
-    def handle_starttag(self, tag, attrs):
-        attrs_dict = dict(attrs)
+def extract_review_from_description(description: str) -> str:
+    """Extract review text from CDATA description HTML"""
+    if not description:
+        return ''
 
-        # Detect activity section
-        if tag == 'section' and 'class' in attrs_dict:
-            if 'activity-row' in attrs_dict['class']:
-                self.current_activity = {}
-                self.in_review = True
+    # Remove HTML tags
+    text = re.sub(r'<img[^>]*>', '', description)  # Remove images
+    text = re.sub(r'<p>', '', text)
+    text = re.sub(r'</p>', '\n', text)
+    text = re.sub(r'<br\s*/?>', '\n', text)
+    text = re.sub(r'<[^>]+>', '', text)  # Remove any other tags
 
-        # Extract movie title
-        if tag == 'h2' and self.in_review and 'class' in attrs_dict:
-            if 'name' in attrs_dict['class']:
-                self.in_title = True
+    # Unescape HTML entities
+    text = unescape(text)
 
-        # Extract year from release date
-        if tag == 'a' and self.in_review and attrs_dict.get('href', '').startswith('/films/year/'):
-            year_match = re.search(r'/films/year/(\d{4})/', attrs_dict['href'])
-            if year_match:
-                self.current_activity['year'] = year_match.group(1)
+    # Clean up whitespace
+    text = '\n'.join(line.strip() for line in text.split('\n') if line.strip())
+
+    # Filter out "Watched on..." lines that have no review
+    if text.startswith('Watched on '):
+        return ''
+
+    return text.strip()
+
+
+def parse_letterboxd_rss(xml_content: str) -> List[Dict]:
+    """Parse Letterboxd RSS feed and return list of activities"""
+
+    # Parse XML
+    root = ET.fromstring(xml_content)
+
+    # Define namespaces
+    namespaces = {
+        'letterboxd': 'https://letterboxd.com',
+        'tmdb': 'https://themoviedb.org',
+        'dc': 'http://purl.org/dc/elements/1.1/'
+    }
+
+    activities = []
+
+    # Find all items in the RSS feed
+    for item in root.findall('.//item'):
+        activity = {}
+
+        # Extract film title and year from letterboxd namespace
+        film_title = item.find('letterboxd:filmTitle', namespaces)
+        film_year = item.find('letterboxd:filmYear', namespaces)
+
+        if film_title is not None:
+            activity['title'] = film_title.text
+        if film_year is not None:
+            activity['year'] = film_year.text
+
+        # Extract link/URL
+        link = item.find('link')
+        if link is not None and link.text:
+            activity['url'] = link.text
+            # Extract slug from URL (e.g., "hamnet" from "/nicolep/film/hamnet/")
+            slug_match = re.search(r'/film/([^/]+)/', link.text)
+            if slug_match:
+                activity['slug'] = slug_match.group(1)
 
         # Extract rating
-        if tag == 'span' and 'class' in attrs_dict and 'rating' in attrs_dict['class']:
-            self.in_rating = True
-            # Parse rating class (e.g., "rated-5" means 2.5 stars)
-            rating_match = re.search(r'rated-(\d+)', attrs_dict['class'])
-            if rating_match:
-                rating_value = int(rating_match.group(1))
-                stars = rating_value / 2.0
-                self.current_activity['rating'] = stars
-                self.current_activity['rating_display'] = '★' * int(stars) + ('½' if stars % 1 else '')
+        member_rating = item.find('letterboxd:memberRating', namespaces)
+        if member_rating is not None and member_rating.text:
+            try:
+                rating_value = float(member_rating.text)
+                activity['rating'] = rating_value
+                activity['rating_display'] = parse_rating_display(rating_value)
+            except ValueError:
+                pass
 
-        # Extract review text
-        if tag == 'div' and 'class' in attrs_dict and 'js-review-body' in attrs_dict['class']:
-            self.in_review_body = True
+        # Extract watched date
+        watched_date = item.find('letterboxd:watchedDate', namespaces)
+        if watched_date is not None and watched_date.text:
+            activity['datetime'] = watched_date.text
+            try:
+                dt = datetime.fromisoformat(watched_date.text)
+                activity['date'] = dt.strftime('%b %d, %Y')
+                activity['date_short'] = dt.strftime('%b %d')
+            except:
+                pass
 
-        # Extract timestamp
-        if tag == 'time' and 'datetime' in attrs_dict:
-            self.current_activity['datetime'] = attrs_dict['datetime']
+        # Extract review from description
+        description = item.find('description')
+        if description is not None and description.text:
+            review = extract_review_from_description(description.text)
+            if review:
+                activity['review'] = review
 
-        # Extract movie link and slug
-        if tag == 'a' and self.in_review and 'href' in attrs_dict:
-            href = attrs_dict['href']
-            # Match pattern like /nicolep/film/wicked-2024/
-            if '/film/' in href and href.count('/') >= 3:
-                slug_match = re.search(r'/film/([^/]+)/', href)
-                if slug_match:
-                    self.current_activity['slug'] = slug_match.group(1)
-                    self.current_activity['url'] = f"https://letterboxd.com{href}"
-
-    def handle_endtag(self, tag):
-        if tag == 'section':
-            if self.current_activity and 'title' in self.current_activity:
-                self.activities.append(self.current_activity.copy())
-            self.current_activity = {}
-            self.in_review = False
-            self.in_review_body = False
-
-        if tag == 'h2':
-            self.in_title = False
-
-        if tag == 'span':
-            self.in_rating = False
-
-    def handle_data(self, data):
-        data = data.strip()
-        if not data:
-            return
-
-        # Capture movie title
-        if self.in_title and data and data not in ['watched', 'rewatched']:
-            if 'title' not in self.current_activity:
-                self.current_activity['title'] = data
-
-        # Capture review text
-        if self.in_review_body:
-            if 'review' not in self.current_activity:
-                self.current_activity['review'] = data
-            else:
-                self.current_activity['review'] += ' ' + data
-
-
-def parse_letterboxd_html(html_content: str) -> List[Dict]:
-    """Parse Letterboxd HTML and return list of activities"""
-    parser = LetterboxdParser()
-    parser.feed(html_content)
-
-    # Clean up and sort activities
-    activities = []
-    for activity in parser.activities:
+        # Only add if we have a title
         if 'title' in activity:
-            # Format date
-            if 'datetime' in activity:
-                try:
-                    dt = datetime.fromisoformat(activity['datetime'].replace('Z', '+00:00'))
-                    activity['date'] = dt.strftime('%b %d, %Y')
-                    activity['date_short'] = dt.strftime('%b %d')
-                except:
-                    pass
-
-            # Clean up review text
-            if 'review' in activity:
-                # Remove translation UI artifacts
-                review = activity['review']
-                # Remove "Translate" and "Translated from..." text
-                review = re.sub(r'\s*Translate\s*Translated from.*$', '', review)
-                review = re.sub(r'\s*Translate\s*$', '', review)
-                activity['review'] = review.strip()
-
             activities.append(activity)
 
     return activities
@@ -140,7 +119,7 @@ def parse_letterboxd_html(html_content: str) -> List[Dict]:
 def format_for_trmnl(activities: List[Dict], limit: int = 5) -> Dict:
     """Format activities for TRMNL merge_variables"""
 
-    # Get most recent activities with reviews
+    # Get most recent activities
     recent = activities[:limit]
 
     # Format for TRMNL
@@ -181,18 +160,29 @@ def format_for_trmnl(activities: List[Dict], limit: int = 5) -> Dict:
 def main():
     """Main function to parse and format Letterboxd data"""
 
-    # Read HTML file
-    html_file = 'letterboxd.com-ajax-activity-pagination-NicoleP.html'
+    # Read RSS/XML file - look for .xml file
+    import glob
+    xml_files = glob.glob('letterboxd.com-NicoleP-rss.xml')
+    if not xml_files:
+        # Fallback to old naming
+        xml_files = glob.glob('letterboxd.com-*.xml')
+
+    if not xml_files:
+        print("Error: No Letterboxd XML/RSS file found")
+        print("Expected: letterboxd.com-NicoleP-rss.xml")
+        return
+
+    xml_file = xml_files[0]
 
     try:
-        with open(html_file, 'r', encoding='utf-8') as f:
-            html_content = f.read()
+        with open(xml_file, 'r', encoding='utf-8') as f:
+            xml_content = f.read()
     except FileNotFoundError:
-        print(f"Error: {html_file} not found")
+        print(f"Error: {xml_file} not found")
         return
 
     # Parse activities
-    activities = parse_letterboxd_html(html_content)
+    activities = parse_letterboxd_rss(xml_content)
 
     print(f"\n📽️  Found {len(activities)} movie activities\n")
     print("=" * 80)
