@@ -51,7 +51,16 @@ TEMP_FILE=$(mktemp)
 
 # Download the file
 echo "Downloading $URL"
-curl -s -L "$URL" -o "$TEMP_FILE" || {
+curl -s -L "$URL" \
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" \
+  -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8" \
+  -H "Accept-Language: en-US,en;q=0.9" \
+  -H "Accept-Encoding: gzip, deflate, br" \
+  -H "DNT: 1" \
+  -H "Connection: keep-alive" \
+  -H "Upgrade-Insecure-Requests: 1" \
+  --compressed \
+  -o "$TEMP_FILE" || {
   echo "Error: Failed to download $URL"
   rm -f "$TEMP_FILE"
   exit 1
