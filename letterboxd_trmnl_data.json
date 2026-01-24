@@ -1,8 +1,64 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jan 24, 2026 01:49 AM",
-    "movies": [],
-    "total_activities": 0
+    "update_time": "Jan 24, 2026 02:43 AM",
+    "movies": [
+      {
+        "title": "Hamnet",
+        "year": "2025",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "Had been very excited to see this after reading the book but I sort of think that was my downfall? Was a 5/5 book for me but the movie felt like we were racing from scene to scene and skipping so much of the beautiful story along the way. I don’t feel like we ever really had the chance to sit and soak in any particular part of the storyline. Still enjoyed it, but the book reigns supreme.",
+        "date": "Jan 20, 2026",
+        "date_short": "Jan 20",
+        "url": "https://letterboxd.com/nicolep/film/hamnet/"
+      },
+      {
+        "title": "Yi Yi",
+        "year": "2000",
+        "rating": 5.0,
+        "rating_display": "★★★★★",
+        "review": "🤘cinema🤘",
+        "date": "Jan 18, 2026",
+        "date_short": "Jan 18",
+        "url": "https://letterboxd.com/nicolep/film/yi-yi/"
+      },
+      {
+        "title": "No Other Choice",
+        "year": "2025",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "I mean I also hate AI so I can see where he’s coming from.",
+        "date": "Jan 15, 2026",
+        "date_short": "Jan 15",
+        "url": "https://letterboxd.com/nicolep/film/no-other-choice-2025/"
+      },
+      {
+        "title": "The Housemaid",
+        "year": "2025",
+        "rating": 1.5,
+        "rating_display": "★½",
+        "review": "Sydney Sweeney the whole movie: 😏\nSo painfully bad it’s actually quite funny, although I’m not sure that was the intention.",
+        "date": "Jan 10, 2026",
+        "date_short": "Jan 10",
+        "url": "https://letterboxd.com/nicolep/film/the-housemaid-2025/"
+      },
+      {
+        "title": "Singin' in the Rain",
+        "year": "1952",
+        "rating": 5.0,
+        "rating_display": "★★★★★",
+        "review": "✅more\n✅tap\n✅dancing\n✅please",
+        "date": "Jan 10, 2026",
+        "date_short": "Jan 10",
+        "url": "https://letterboxd.com/nicolep/film/singin-in-the-rain/"
+      }
+    ],
+    "total_activities": 5,
+    "latest_title": "Hamnet",
+    "latest_year": "2025",
+    "latest_rating": "★★★★",
+    "latest_review": "Had been very excited to see this after reading the book but I sort of think that was my downfall? Was a 5/5 book for me but the movie felt like we were racing from scene to scene and skipping so much of the beautiful story along the way. I don’t feel like we ever really had the chance to sit and soak in any particular part of the storyline. Still enjoyed it, but the book reigns supreme.",
+    "latest_date": "Jan 20, 2026"
   }
 }
