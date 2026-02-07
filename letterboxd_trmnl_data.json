@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Feb 07, 2026 06:44 AM",
+    "update_time": "Feb 07, 2026 08:34 AM",
     "movies": [
+      {
+        "title": "Marty Supreme",
+        "year": "2025",
+        "rating": 4.5,
+        "rating_display": "★★★★½",
+        "review": "I guess the revamped ping pong ball venture was an orange herring.",
+        "date": "Feb 07, 2026",
+        "date_short": "Feb 07",
+        "url": "https://letterboxd.com/nicolep/film/marty-supreme/"
+      },
       {
         "title": "Hamnet",
         "year": "2025",
@@ -42,23 +52,13 @@
         "date": "Jan 10, 2026",
         "date_short": "Jan 10",
         "url": "https://letterboxd.com/nicolep/film/the-housemaid-2025/"
-      },
-      {
-        "title": "Singin' in the Rain",
-        "year": "1952",
-        "rating": 5.0,
-        "rating_display": "★★★★★",
-        "review": "✅more\n✅tap\n✅dancing\n✅please",
-        "date": "Jan 10, 2026",
-        "date_short": "Jan 10",
-        "url": "https://letterboxd.com/nicolep/film/singin-in-the-rain/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Hamnet",
+    "latest_title": "Marty Supreme",
     "latest_year": "2025",
-    "latest_rating": "★★★★",
-    "latest_review": "Had been very excited to see this after reading the book but I sort of think that was my downfall? Was a 5/5 book for me but the movie felt like we were racing from scene to scene and skipping so much of the beautiful story along the way. I don’t feel like we ever really had the chance to sit and soak in any particular part of the storyline. Still enjoyed it, but the book reigns supreme.",
-    "latest_date": "Jan 20, 2026"
+    "latest_rating": "★★★★½",
+    "latest_review": "I guess the revamped ping pong ball venture was an orange herring.",
+    "latest_date": "Feb 07, 2026"
   }
 }
