@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Feb 09, 2026 07:06 AM",
+    "update_time": "Feb 09, 2026 08:55 AM",
     "movies": [
+      {
+        "title": "Sentimental Value",
+        "year": "2025",
+        "rating": 3.5,
+        "rating_display": "★★★½",
+        "review": "I would give this a 3.75 if I could. Enjoyable and tender but didn’t quite *hit*. Colour grading goes hard though.",
+        "date": "Feb 09, 2026",
+        "date_short": "Feb 09",
+        "url": "https://letterboxd.com/nicolep/film/sentimental-value-2025/"
+      },
       {
         "title": "Marty Supreme",
         "year": "2025",
@@ -42,23 +52,13 @@
         "date": "Jan 15, 2026",
         "date_short": "Jan 15",
         "url": "https://letterboxd.com/nicolep/film/no-other-choice-2025/"
-      },
-      {
-        "title": "The Housemaid",
-        "year": "2025",
-        "rating": 1.5,
-        "rating_display": "★½",
-        "review": "Sydney Sweeney the whole movie: 😏\nSo painfully bad it’s actually quite funny, although I’m not sure that was the intention.",
-        "date": "Jan 10, 2026",
-        "date_short": "Jan 10",
-        "url": "https://letterboxd.com/nicolep/film/the-housemaid-2025/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Marty Supreme",
+    "latest_title": "Sentimental Value",
     "latest_year": "2025",
-    "latest_rating": "★★★★½",
-    "latest_review": "I guess the revamped ping pong ball venture was an orange herring.",
-    "latest_date": "Feb 07, 2026"
+    "latest_rating": "★★★½",
+    "latest_review": "I would give this a 3.75 if I could. Enjoyable and tender but didn’t quite *hit*. Colour grading goes hard though.",
+    "latest_date": "Feb 09, 2026"
   }
 }
