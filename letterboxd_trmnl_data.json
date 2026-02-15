@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Feb 15, 2026 06:54 AM",
+    "update_time": "Feb 15, 2026 08:35 AM",
     "movies": [
+      {
+        "title": "Predestination",
+        "year": "2014",
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "Me: I love time travel movies\nAlso me: *meme of confused math lady*",
+        "date": "Feb 14, 2026",
+        "date_short": "Feb 14",
+        "url": "https://letterboxd.com/nicolep/film/predestination/"
+      },
       {
         "title": "Sentimental Value",
         "year": "2025",
@@ -42,23 +52,13 @@
         "date": "Jan 18, 2026",
         "date_short": "Jan 18",
         "url": "https://letterboxd.com/nicolep/film/yi-yi/"
-      },
-      {
-        "title": "No Other Choice",
-        "year": "2025",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "I mean I also hate AI so I can see where he’s coming from.",
-        "date": "Jan 15, 2026",
-        "date_short": "Jan 15",
-        "url": "https://letterboxd.com/nicolep/film/no-other-choice-2025/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Sentimental Value",
-    "latest_year": "2025",
-    "latest_rating": "★★★½",
-    "latest_review": "I would give this a 3.75 if I could. Enjoyable and tender but didn’t quite *hit*. Colour grading goes hard though.",
-    "latest_date": "Feb 09, 2026"
+    "latest_title": "Predestination",
+    "latest_year": "2014",
+    "latest_rating": "★★★",
+    "latest_review": "Me: I love time travel movies\nAlso me: *meme of confused math lady*",
+    "latest_date": "Feb 14, 2026"
   }
 }
