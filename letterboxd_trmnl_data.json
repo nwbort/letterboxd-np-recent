@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Feb 17, 2026 07:01 AM",
+    "update_time": "Feb 17, 2026 08:50 AM",
     "movies": [
+      {
+        "title": "It Was Just an Accident",
+        "year": "2025",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "Fantastic performances. I have no doubt I’ll be thinking about this one for a long time to come.",
+        "date": "Feb 16, 2026",
+        "date_short": "Feb 16",
+        "url": "https://letterboxd.com/nicolep/film/it-was-just-an-accident/"
+      },
       {
         "title": "Predestination",
         "year": "2014",
@@ -42,23 +52,13 @@
         "date": "Jan 20, 2026",
         "date_short": "Jan 20",
         "url": "https://letterboxd.com/nicolep/film/hamnet/"
-      },
-      {
-        "title": "Yi Yi",
-        "year": "2000",
-        "rating": 5.0,
-        "rating_display": "★★★★★",
-        "review": "🤘cinema🤘",
-        "date": "Jan 18, 2026",
-        "date_short": "Jan 18",
-        "url": "https://letterboxd.com/nicolep/film/yi-yi/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Predestination",
-    "latest_year": "2014",
-    "latest_rating": "★★★",
-    "latest_review": "Me: I love time travel movies\nAlso me: *meme of confused math lady*",
-    "latest_date": "Feb 14, 2026"
+    "latest_title": "It Was Just an Accident",
+    "latest_year": "2025",
+    "latest_rating": "★★★★",
+    "latest_review": "Fantastic performances. I have no doubt I’ll be thinking about this one for a long time to come.",
+    "latest_date": "Feb 16, 2026"
   }
 }
