@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Feb 23, 2026 07:06 AM",
+    "update_time": "Feb 23, 2026 08:53 AM",
     "movies": [
+      {
+        "title": "Send Help",
+        "year": "2026",
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "Spent the whole movie just 😬🥵🙈",
+        "date": "Feb 22, 2026",
+        "date_short": "Feb 22",
+        "url": "https://letterboxd.com/nicolep/film/send-help/"
+      },
       {
         "title": "It Was Just an Accident",
         "year": "2025",
@@ -42,23 +52,13 @@
         "date": "Feb 07, 2026",
         "date_short": "Feb 07",
         "url": "https://letterboxd.com/nicolep/film/marty-supreme/"
-      },
-      {
-        "title": "Hamnet",
-        "year": "2025",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "Had been very excited to see this after reading the book but I sort of think that was my downfall? Was a 5/5 book for me but the movie felt like we were racing from scene to scene and skipping so much of the beautiful story along the way. I don’t feel like we ever really had the chance to sit and soak in any particular part of the storyline. Still enjoyed it, but the book reigns supreme.",
-        "date": "Jan 20, 2026",
-        "date_short": "Jan 20",
-        "url": "https://letterboxd.com/nicolep/film/hamnet/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "It Was Just an Accident",
-    "latest_year": "2025",
-    "latest_rating": "★★★★",
-    "latest_review": "Fantastic performances. I have no doubt I’ll be thinking about this one for a long time to come.",
-    "latest_date": "Feb 16, 2026"
+    "latest_title": "Send Help",
+    "latest_year": "2026",
+    "latest_rating": "★★★",
+    "latest_review": "Spent the whole movie just 😬🥵🙈",
+    "latest_date": "Feb 22, 2026"
   }
 }
