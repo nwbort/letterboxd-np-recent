@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Mar 01, 2026 06:50 AM",
+    "update_time": "Mar 01, 2026 08:34 AM",
     "movies": [
+      {
+        "title": "The Last Dance",
+        "year": "2024",
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "",
+        "date": "Feb 28, 2026",
+        "date_short": "Feb 28",
+        "url": "https://letterboxd.com/nicolep/film/the-last-dance-2024-1/"
+      },
       {
         "title": "Send Help",
         "year": "2026",
@@ -42,23 +52,13 @@
         "date": "Feb 09, 2026",
         "date_short": "Feb 09",
         "url": "https://letterboxd.com/nicolep/film/sentimental-value-2025/"
-      },
-      {
-        "title": "Marty Supreme",
-        "year": "2025",
-        "rating": 4.5,
-        "rating_display": "★★★★½",
-        "review": "I guess the revamped ping pong ball venture was an orange herring.",
-        "date": "Feb 07, 2026",
-        "date_short": "Feb 07",
-        "url": "https://letterboxd.com/nicolep/film/marty-supreme/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Send Help",
-    "latest_year": "2026",
+    "latest_title": "The Last Dance",
+    "latest_year": "2024",
     "latest_rating": "★★★",
-    "latest_review": "Spent the whole movie just 😬🥵🙈",
-    "latest_date": "Feb 22, 2026"
+    "latest_review": "",
+    "latest_date": "Feb 28, 2026"
   }
 }
