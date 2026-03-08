@@ -1,8 +1,28 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Mar 08, 2026 06:46 AM",
+    "update_time": "Mar 08, 2026 08:33 AM",
     "movies": [
+      {
+        "title": "How to Make a Killing",
+        "year": "2026",
+        "rating": 2.5,
+        "rating_display": "★★½",
+        "review": "This seemed like a fun concept but was actually just so boring. I would relegate this to a ‘have 14 hours on a flight and I can’t sleep’ watch.",
+        "date": "Mar 08, 2026",
+        "date_short": "Mar 08",
+        "url": "https://letterboxd.com/nicolep/film/how-to-make-a-killing-2026/"
+      },
+      {
+        "title": "See How They Run",
+        "year": "2022",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "How did this movie fly so under the radar? Absolutely stacked cast and plenty of laughs. A very solid easy watch.",
+        "date": "Mar 07, 2026",
+        "date_short": "Mar 07",
+        "url": "https://letterboxd.com/nicolep/film/see-how-they-run-2022/"
+      },
       {
         "title": "The Last Dance",
         "year": "2024",
@@ -32,33 +52,13 @@
         "date": "Feb 16, 2026",
         "date_short": "Feb 16",
         "url": "https://letterboxd.com/nicolep/film/it-was-just-an-accident/"
-      },
-      {
-        "title": "Predestination",
-        "year": "2014",
-        "rating": 3.0,
-        "rating_display": "★★★",
-        "review": "Me: I love time travel movies\nAlso me: *meme of confused math lady*",
-        "date": "Feb 14, 2026",
-        "date_short": "Feb 14",
-        "url": "https://letterboxd.com/nicolep/film/predestination/"
-      },
-      {
-        "title": "Sentimental Value",
-        "year": "2025",
-        "rating": 3.5,
-        "rating_display": "★★★½",
-        "review": "I would give this a 3.75 if I could. Enjoyable and tender but didn’t quite *hit*. Colour grading goes hard though.",
-        "date": "Feb 09, 2026",
-        "date_short": "Feb 09",
-        "url": "https://letterboxd.com/nicolep/film/sentimental-value-2025/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "The Last Dance",
-    "latest_year": "2024",
-    "latest_rating": "★★★",
-    "latest_review": "",
-    "latest_date": "Feb 28, 2026"
+    "latest_title": "How to Make a Killing",
+    "latest_year": "2026",
+    "latest_rating": "★★½",
+    "latest_review": "This seemed like a fun concept but was actually just so boring. I would relegate this to a ‘have 14 hours on a flight and I can’t sleep’ watch.",
+    "latest_date": "Mar 08, 2026"
   }
 }
