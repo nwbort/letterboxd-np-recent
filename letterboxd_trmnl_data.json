@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Apr 14, 2026 06:01 AM",
+    "update_time": "Apr 14, 2026 09:20 AM",
     "movies": [
+      {
+        "title": "The Drama",
+        "year": "2026",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "Considering the mixed reviews I actually found this to be a fun movie, even if it is (purposefully) painful to watch at times.\nFuck Rachel.",
+        "date": "Apr 13, 2026",
+        "date_short": "Apr 13",
+        "url": "https://letterboxd.com/nicolep/film/the-drama/"
+      },
       {
         "title": "How to Make a Killing",
         "year": "2026",
@@ -42,23 +52,13 @@
         "date": "Feb 22, 2026",
         "date_short": "Feb 22",
         "url": "https://letterboxd.com/nicolep/film/send-help/"
-      },
-      {
-        "title": "It Was Just an Accident",
-        "year": "2025",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "Fantastic performances. I have no doubt I’ll be thinking about this one for a long time to come.",
-        "date": "Feb 16, 2026",
-        "date_short": "Feb 16",
-        "url": "https://letterboxd.com/nicolep/film/it-was-just-an-accident/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "How to Make a Killing",
+    "latest_title": "The Drama",
     "latest_year": "2026",
-    "latest_rating": "★★½",
-    "latest_review": "This seemed like a fun concept but was actually just so boring. I would relegate this to a ‘have 14 hours on a flight and I can’t sleep’ watch.",
-    "latest_date": "Mar 08, 2026"
+    "latest_rating": "★★★★",
+    "latest_review": "Considering the mixed reviews I actually found this to be a fun movie, even if it is (purposefully) painful to watch at times.\nFuck Rachel.",
+    "latest_date": "Apr 13, 2026"
   }
 }
