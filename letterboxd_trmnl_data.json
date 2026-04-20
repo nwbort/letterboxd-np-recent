@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Apr 20, 2026 06:15 AM",
+    "update_time": "Apr 20, 2026 09:59 AM",
     "movies": [
+      {
+        "title": "Arrival",
+        "year": "2016",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "Yeah I really liked that",
+        "date": "Apr 19, 2026",
+        "date_short": "Apr 19",
+        "url": "https://letterboxd.com/nicolep/film/arrival-2016/"
+      },
       {
         "title": "The Drama",
         "year": "2026",
@@ -42,23 +52,13 @@
         "date": "Feb 28, 2026",
         "date_short": "Feb 28",
         "url": "https://letterboxd.com/nicolep/film/the-last-dance-2024-1/"
-      },
-      {
-        "title": "Send Help",
-        "year": "2026",
-        "rating": 3.0,
-        "rating_display": "★★★",
-        "review": "Spent the whole movie just 😬🥵🙈",
-        "date": "Feb 22, 2026",
-        "date_short": "Feb 22",
-        "url": "https://letterboxd.com/nicolep/film/send-help/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "The Drama",
-    "latest_year": "2026",
+    "latest_title": "Arrival",
+    "latest_year": "2016",
     "latest_rating": "★★★★",
-    "latest_review": "Considering the mixed reviews I actually found this to be a fun movie, even if it is (purposefully) painful to watch at times.\nFuck Rachel.",
-    "latest_date": "Apr 13, 2026"
+    "latest_review": "Yeah I really liked that",
+    "latest_date": "Apr 19, 2026"
   }
 }
