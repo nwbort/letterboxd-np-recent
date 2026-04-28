@@ -1,8 +1,38 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Apr 28, 2026 06:30 AM",
+    "update_time": "Apr 28, 2026 10:14 AM",
     "movies": [
+      {
+        "title": "Nirvanna the Band the Show the Movie",
+        "year": "2025",
+        "rating": 3.5,
+        "rating_display": "★★★½",
+        "review": "Uh idk why I expected but this was not it. Pretty funny in parts, I enjoyed reminiscing on everyone we’ve (rightfully) cancelled since 2008.",
+        "date": "Apr 27, 2026",
+        "date_short": "Apr 27",
+        "url": "https://letterboxd.com/nicolep/film/nirvanna-the-band-the-show-the-movie/"
+      },
+      {
+        "title": "Project Hail Mary",
+        "year": "2026",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "A lot more enjoyable than the book. Love a space movie in cinemas. Only issue is that I don’t think Ryan Gosling gives primary school teacher vibes…",
+        "date": "Apr 25, 2026",
+        "date_short": "Apr 25",
+        "url": "https://letterboxd.com/nicolep/film/project-hail-mary/"
+      },
+      {
+        "title": "Parasite",
+        "year": "2019",
+        "rating": 4.5,
+        "rating_display": "★★★★½",
+        "review": "Rewatch with a live orchestra with composer Jung Jae-il ✨",
+        "date": "Apr 24, 2026",
+        "date_short": "Apr 24",
+        "url": "https://letterboxd.com/nicolep/film/parasite-2019/1/"
+      },
       {
         "title": "Arrival",
         "year": "2016",
@@ -22,43 +52,13 @@
         "date": "Apr 13, 2026",
         "date_short": "Apr 13",
         "url": "https://letterboxd.com/nicolep/film/the-drama/"
-      },
-      {
-        "title": "How to Make a Killing",
-        "year": "2026",
-        "rating": 2.5,
-        "rating_display": "★★½",
-        "review": "This seemed like a fun concept but was actually just so boring. I would relegate this to a ‘have 14 hours on a flight and I can’t sleep’ watch.",
-        "date": "Mar 08, 2026",
-        "date_short": "Mar 08",
-        "url": "https://letterboxd.com/nicolep/film/how-to-make-a-killing-2026/"
-      },
-      {
-        "title": "See How They Run",
-        "year": "2022",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "How did this movie fly so under the radar? Absolutely stacked cast and plenty of laughs. A very solid easy watch.",
-        "date": "Mar 07, 2026",
-        "date_short": "Mar 07",
-        "url": "https://letterboxd.com/nicolep/film/see-how-they-run-2022/"
-      },
-      {
-        "title": "The Last Dance",
-        "year": "2024",
-        "rating": 3.0,
-        "rating_display": "★★★",
-        "review": "",
-        "date": "Feb 28, 2026",
-        "date_short": "Feb 28",
-        "url": "https://letterboxd.com/nicolep/film/the-last-dance-2024-1/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Arrival",
-    "latest_year": "2016",
-    "latest_rating": "★★★★",
-    "latest_review": "Yeah I really liked that",
-    "latest_date": "Apr 19, 2026"
+    "latest_title": "Nirvanna the Band the Show the Movie",
+    "latest_year": "2025",
+    "latest_rating": "★★★½",
+    "latest_review": "Uh idk why I expected but this was not it. Pretty funny in parts, I enjoyed reminiscing on everyone we’ve (rightfully) cancelled since 2008.",
+    "latest_date": "Apr 27, 2026"
   }
 }
