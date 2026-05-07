@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "May 07, 2026 06:36 AM",
+    "update_time": "May 07, 2026 10:25 AM",
     "movies": [
+      {
+        "title": "All That's Left of You",
+        "year": "2025",
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "I feel bad rating this so lowly but as other reviews have pointed out, I found this movie to be too focused on trying to communicate a message in overly simple terms that it lost the raw pain and horror that is the Israeli occupation of Palestine. I felt the organ donation storyline too be overdone and drawn out.",
+        "date": "May 05, 2026",
+        "date_short": "May 05",
+        "url": "https://letterboxd.com/nicolep/film/all-thats-left-of-you/"
+      },
       {
         "title": "Nirvanna the Band the Show the Movie",
         "year": "2025",
@@ -42,23 +52,13 @@
         "date": "Apr 19, 2026",
         "date_short": "Apr 19",
         "url": "https://letterboxd.com/nicolep/film/arrival-2016/"
-      },
-      {
-        "title": "The Drama",
-        "year": "2026",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "Considering the mixed reviews I actually found this to be a fun movie, even if it is (purposefully) painful to watch at times.\nFuck Rachel.",
-        "date": "Apr 13, 2026",
-        "date_short": "Apr 13",
-        "url": "https://letterboxd.com/nicolep/film/the-drama/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Nirvanna the Band the Show the Movie",
+    "latest_title": "All That's Left of You",
     "latest_year": "2025",
-    "latest_rating": "★★★½",
-    "latest_review": "Uh idk why I expected but this was not it. Pretty funny in parts, I enjoyed reminiscing on everyone we’ve (rightfully) cancelled since 2008.",
-    "latest_date": "Apr 27, 2026"
+    "latest_rating": "★★★",
+    "latest_review": "I feel bad rating this so lowly but as other reviews have pointed out, I found this movie to be too focused on trying to communicate a message in overly simple terms that it lost the raw pain and horror that is the Israeli occupation of Palestine. I felt the organ donation storyline too be overdone and drawn out.",
+    "latest_date": "May 05, 2026"
   }
 }
