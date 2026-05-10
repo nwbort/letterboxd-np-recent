@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "May 10, 2026 06:33 AM",
+    "update_time": "May 10, 2026 09:39 AM",
     "movies": [
+      {
+        "title": "Hokum",
+        "year": "2026",
+        "rating": 2.0,
+        "rating_display": "★★",
+        "review": "Yeah okay so some good jump scares but a really unrewarding plot.",
+        "date": "May 08, 2026",
+        "date_short": "May 08",
+        "url": "https://letterboxd.com/nicolep/film/hokum/"
+      },
       {
         "title": "The Devil Wears Prada 2",
         "year": "2026",
@@ -42,23 +52,13 @@
         "date": "Apr 25, 2026",
         "date_short": "Apr 25",
         "url": "https://letterboxd.com/nicolep/film/project-hail-mary/"
-      },
-      {
-        "title": "Parasite",
-        "year": "2019",
-        "rating": 4.5,
-        "rating_display": "★★★★½",
-        "review": "Rewatch with a live orchestra with composer Jung Jae-il ✨",
-        "date": "Apr 24, 2026",
-        "date_short": "Apr 24",
-        "url": "https://letterboxd.com/nicolep/film/parasite-2019/1/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "The Devil Wears Prada 2",
+    "latest_title": "Hokum",
     "latest_year": "2026",
-    "latest_rating": "★★★",
-    "latest_review": "Got a 3 on pure nostalgia value. I had fun but can’t spent too much time analysing this because there were so many questionable choices, to put it nicely.",
-    "latest_date": "May 07, 2026"
+    "latest_rating": "★★",
+    "latest_review": "Yeah okay so some good jump scares but a really unrewarding plot.",
+    "latest_date": "May 08, 2026"
   }
 }
