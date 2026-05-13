@@ -1,8 +1,38 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "May 13, 2026 06:48 AM",
+    "update_time": "May 13, 2026 10:29 AM",
     "movies": [
+      {
+        "title": "Twinless",
+        "year": "2025",
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "Interesting premise but sort of felt exhausting as the audience.",
+        "date": "May 09, 2026",
+        "date_short": "May 09",
+        "url": "https://letterboxd.com/nicolep/film/twinless/"
+      },
+      {
+        "title": "Hard Truths",
+        "year": "2024",
+        "rating": 2.0,
+        "rating_display": "★★",
+        "review": "I found this so unbearably hard to watch, Pansy is so angry at the world it makes it very unenjoyable to sit through. Not sure the payoff was worth it for me.",
+        "date": "May 13, 2026",
+        "date_short": "May 13",
+        "url": "https://letterboxd.com/nicolep/film/hard-truths-2024/"
+      },
+      {
+        "title": "Click",
+        "year": "2006",
+        "rating": 0,
+        "rating_display": "",
+        "review": "Haven’t rewatched since childhood. I can see why it was so funny and quotable when I was 12 but weow it hasn’t all aged well.",
+        "date": "May 13, 2026",
+        "date_short": "May 13",
+        "url": "https://letterboxd.com/nicolep/film/click/"
+      },
       {
         "title": "Hokum",
         "year": "2026",
@@ -22,43 +52,13 @@
         "date": "May 07, 2026",
         "date_short": "May 07",
         "url": "https://letterboxd.com/nicolep/film/the-devil-wears-prada-2/"
-      },
-      {
-        "title": "All That's Left of You",
-        "year": "2025",
-        "rating": 3.0,
-        "rating_display": "★★★",
-        "review": "I feel bad rating this so lowly but as other reviews have pointed out, I found this movie to be too focused on trying to communicate a message in overly simple terms that it lost the raw pain and horror that is the Israeli occupation of Palestine. I felt the organ donation storyline too be overdone and drawn out.",
-        "date": "May 05, 2026",
-        "date_short": "May 05",
-        "url": "https://letterboxd.com/nicolep/film/all-thats-left-of-you/"
-      },
-      {
-        "title": "Nirvanna the Band the Show the Movie",
-        "year": "2025",
-        "rating": 3.5,
-        "rating_display": "★★★½",
-        "review": "Uh idk why I expected but this was not it. Pretty funny in parts, I enjoyed reminiscing on everyone we’ve (rightfully) cancelled since 2008.",
-        "date": "Apr 27, 2026",
-        "date_short": "Apr 27",
-        "url": "https://letterboxd.com/nicolep/film/nirvanna-the-band-the-show-the-movie/"
-      },
-      {
-        "title": "Project Hail Mary",
-        "year": "2026",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "A lot more enjoyable than the book. Love a space movie in cinemas. Only issue is that I don’t think Ryan Gosling gives primary school teacher vibes…",
-        "date": "Apr 25, 2026",
-        "date_short": "Apr 25",
-        "url": "https://letterboxd.com/nicolep/film/project-hail-mary/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Hokum",
-    "latest_year": "2026",
-    "latest_rating": "★★",
-    "latest_review": "Yeah okay so some good jump scares but a really unrewarding plot.",
-    "latest_date": "May 08, 2026"
+    "latest_title": "Twinless",
+    "latest_year": "2025",
+    "latest_rating": "★★★",
+    "latest_review": "Interesting premise but sort of felt exhausting as the audience.",
+    "latest_date": "May 09, 2026"
   }
 }
