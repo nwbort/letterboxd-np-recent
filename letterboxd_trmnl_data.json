@@ -1,8 +1,28 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "May 16, 2026 06:22 AM",
+    "update_time": "May 16, 2026 09:41 AM",
     "movies": [
+      {
+        "title": "Steel Magnolias",
+        "year": "1989",
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "I never know what’s supposed to be funny on purpose and what’s only funny because I’m watching this 30 years later, ya know?",
+        "date": "May 14, 2026",
+        "date_short": "May 14",
+        "url": "https://letterboxd.com/nicolep/film/steel-magnolias/"
+      },
+      {
+        "title": "I Saw the TV Glow",
+        "year": "2024",
+        "rating": 2.5,
+        "rating_display": "★★½",
+        "review": "I saw… a different movie to everyone else apparently cause wth was that. First 1/3rd was fun and interesting but absolutely lost me in the second half.",
+        "date": "May 15, 2026",
+        "date_short": "May 15",
+        "url": "https://letterboxd.com/nicolep/film/i-saw-the-tv-glow/"
+      },
       {
         "title": "Twinless",
         "year": "2025",
@@ -32,33 +52,13 @@
         "date": "May 13, 2026",
         "date_short": "May 13",
         "url": "https://letterboxd.com/nicolep/film/click/"
-      },
-      {
-        "title": "Hokum",
-        "year": "2026",
-        "rating": 2.0,
-        "rating_display": "★★",
-        "review": "Yeah okay so some good jump scares but a really unrewarding plot.",
-        "date": "May 08, 2026",
-        "date_short": "May 08",
-        "url": "https://letterboxd.com/nicolep/film/hokum/"
-      },
-      {
-        "title": "The Devil Wears Prada 2",
-        "year": "2026",
-        "rating": 3.0,
-        "rating_display": "★★★",
-        "review": "Got a 3 on pure nostalgia value. I had fun but can’t spent too much time analysing this because there were so many questionable choices, to put it nicely.",
-        "date": "May 07, 2026",
-        "date_short": "May 07",
-        "url": "https://letterboxd.com/nicolep/film/the-devil-wears-prada-2/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Twinless",
-    "latest_year": "2025",
+    "latest_title": "Steel Magnolias",
+    "latest_year": "1989",
     "latest_rating": "★★★",
-    "latest_review": "Interesting premise but sort of felt exhausting as the audience.",
-    "latest_date": "May 09, 2026"
+    "latest_review": "I never know what’s supposed to be funny on purpose and what’s only funny because I’m watching this 30 years later, ya know?",
+    "latest_date": "May 14, 2026"
   }
 }
