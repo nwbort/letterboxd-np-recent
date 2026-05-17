@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "May 17, 2026 06:45 AM",
+    "update_time": "May 17, 2026 09:47 AM",
     "movies": [
+      {
+        "title": "The Sheep Detectives",
+        "year": "2026",
+        "rating": 5.0,
+        "rating_display": "★★★★★",
+        "review": "That was perfection and you can’t tell me otherwise.\nAlso pour one out for my homie Wilbur, my own winter lamb who sadly didn’t make it 🐑😭",
+        "date": "May 17, 2026",
+        "date_short": "May 17",
+        "url": "https://letterboxd.com/nicolep/film/the-sheep-detectives/"
+      },
       {
         "title": "Steel Magnolias",
         "year": "1989",
@@ -42,23 +52,13 @@
         "date": "May 13, 2026",
         "date_short": "May 13",
         "url": "https://letterboxd.com/nicolep/film/hard-truths-2024/"
-      },
-      {
-        "title": "Click",
-        "year": "2006",
-        "rating": 0,
-        "rating_display": "",
-        "review": "Haven’t rewatched since childhood. I can see why it was so funny and quotable when I was 12 but weow it hasn’t all aged well.",
-        "date": "May 13, 2026",
-        "date_short": "May 13",
-        "url": "https://letterboxd.com/nicolep/film/click/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Steel Magnolias",
-    "latest_year": "1989",
-    "latest_rating": "★★★",
-    "latest_review": "I never know what’s supposed to be funny on purpose and what’s only funny because I’m watching this 30 years later, ya know?",
-    "latest_date": "May 14, 2026"
+    "latest_title": "The Sheep Detectives",
+    "latest_year": "2026",
+    "latest_rating": "★★★★★",
+    "latest_review": "That was perfection and you can’t tell me otherwise.\nAlso pour one out for my homie Wilbur, my own winter lamb who sadly didn’t make it 🐑😭",
+    "latest_date": "May 17, 2026"
   }
 }
