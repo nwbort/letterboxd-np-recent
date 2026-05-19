@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "May 19, 2026 07:47 AM",
+    "update_time": "May 19, 2026 11:19 AM",
     "movies": [
+      {
+        "title": "The Finisher: Jasmin Paris and the Barkley Marathons",
+        "year": "2025",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "🤘 fuck yeah the girls 🤘 Great inspo to watch during a training block - Jasmin Paris you absolute legend.",
+        "date": "May 19, 2026",
+        "date_short": "May 19",
+        "url": "https://letterboxd.com/nicolep/film/the-finisher-jasmin-paris-and-the-barkley/"
+      },
       {
         "title": "The Sheep Detectives",
         "year": "2026",
@@ -42,23 +52,13 @@
         "date": "May 09, 2026",
         "date_short": "May 09",
         "url": "https://letterboxd.com/nicolep/film/twinless/"
-      },
-      {
-        "title": "Hard Truths",
-        "year": "2024",
-        "rating": 2.0,
-        "rating_display": "★★",
-        "review": "I found this so unbearably hard to watch, Pansy is so angry at the world it makes it very unenjoyable to sit through. Not sure the payoff was worth it for me.",
-        "date": "May 13, 2026",
-        "date_short": "May 13",
-        "url": "https://letterboxd.com/nicolep/film/hard-truths-2024/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "The Sheep Detectives",
-    "latest_year": "2026",
-    "latest_rating": "★★★★★",
-    "latest_review": "That was perfection and you can’t tell me otherwise.\nAlso pour one out for my homie Wilbur, my own winter lamb who sadly didn’t make it 🐑😭",
-    "latest_date": "May 17, 2026"
+    "latest_title": "The Finisher: Jasmin Paris and the Barkley Marathons",
+    "latest_year": "2025",
+    "latest_rating": "★★★★",
+    "latest_review": "🤘 fuck yeah the girls 🤘 Great inspo to watch during a training block - Jasmin Paris you absolute legend.",
+    "latest_date": "May 19, 2026"
   }
 }
