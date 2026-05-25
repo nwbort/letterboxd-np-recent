@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "May 25, 2026 08:37 AM",
+    "update_time": "May 25, 2026 01:30 PM",
     "movies": [
+      {
+        "title": "Waking Ned Devine",
+        "year": "1998",
+        "rating": 4.5,
+        "rating_display": "★★★★½",
+        "review": "Watched this first in High School - not sure why we were watching it at school but I wasn’t complaining. Still just as funny and well worth a rewatch - best to go in without googling the synopsis imo.",
+        "date": "May 24, 2026",
+        "date_short": "May 24",
+        "url": "https://letterboxd.com/nicolep/film/waking-ned-devine/"
+      },
       {
         "title": "The Finisher: Jasmin Paris and the Barkley Marathons",
         "year": "2025",
@@ -42,23 +52,13 @@
         "date": "May 15, 2026",
         "date_short": "May 15",
         "url": "https://letterboxd.com/nicolep/film/i-saw-the-tv-glow/"
-      },
-      {
-        "title": "Twinless",
-        "year": "2025",
-        "rating": 3.0,
-        "rating_display": "★★★",
-        "review": "Interesting premise but sort of felt exhausting as the audience.",
-        "date": "May 09, 2026",
-        "date_short": "May 09",
-        "url": "https://letterboxd.com/nicolep/film/twinless/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "The Finisher: Jasmin Paris and the Barkley Marathons",
-    "latest_year": "2025",
-    "latest_rating": "★★★★",
-    "latest_review": "🤘 fuck yeah the girls 🤘 Great inspo to watch during a training block - Jasmin Paris you absolute legend.",
-    "latest_date": "May 19, 2026"
+    "latest_title": "Waking Ned Devine",
+    "latest_year": "1998",
+    "latest_rating": "★★★★½",
+    "latest_review": "Watched this first in High School - not sure why we were watching it at school but I wasn’t complaining. Still just as funny and well worth a rewatch - best to go in without googling the synopsis imo.",
+    "latest_date": "May 24, 2026"
   }
 }
