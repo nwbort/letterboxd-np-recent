@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jun 02, 2026 10:25 AM",
+    "update_time": "Jun 02, 2026 04:27 PM",
     "movies": [
+      {
+        "title": "Backrooms",
+        "year": "2026",
+        "rating": 3.5,
+        "rating_display": "★★★½",
+        "review": "I gave it 3 immediately upon exiting the movie but I have continued to think about it since then, so I’m upgrading to 3.5.",
+        "date": "May 30, 2026",
+        "date_short": "May 30",
+        "url": "https://letterboxd.com/nicolep/film/backrooms-2026/"
+      },
       {
         "title": "Waking Ned Devine",
         "year": "1998",
@@ -42,23 +52,13 @@
         "date": "May 14, 2026",
         "date_short": "May 14",
         "url": "https://letterboxd.com/nicolep/film/steel-magnolias/"
-      },
-      {
-        "title": "I Saw the TV Glow",
-        "year": "2024",
-        "rating": 2.5,
-        "rating_display": "★★½",
-        "review": "I saw… a different movie to everyone else apparently cause wth was that. First 1/3rd was fun and interesting but absolutely lost me in the second half.",
-        "date": "May 15, 2026",
-        "date_short": "May 15",
-        "url": "https://letterboxd.com/nicolep/film/i-saw-the-tv-glow/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Waking Ned Devine",
-    "latest_year": "1998",
-    "latest_rating": "★★★★½",
-    "latest_review": "Watched this first in High School - not sure why we were watching it at school but I wasn’t complaining. Still just as funny and well worth a rewatch - best to go in without googling the synopsis imo.",
-    "latest_date": "May 24, 2026"
+    "latest_title": "Backrooms",
+    "latest_year": "2026",
+    "latest_rating": "★★★½",
+    "latest_review": "I gave it 3 immediately upon exiting the movie but I have continued to think about it since then, so I’m upgrading to 3.5.",
+    "latest_date": "May 30, 2026"
   }
 }
