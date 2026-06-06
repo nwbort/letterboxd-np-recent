@@ -1,8 +1,28 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jun 06, 2026 06:53 AM",
+    "update_time": "Jun 06, 2026 10:05 AM",
     "movies": [
+      {
+        "title": "The Cycle of Love",
+        "year": "2025",
+        "rating": 5.0,
+        "rating_display": "★★★★★",
+        "review": "SFF# 2\nFirst date: chai\nSecond date: meet the parents\nThird date: 6,000 mile journey from India to Sweden.\nSo life affirming and inspiring. This movie gave me goosebumps - an absolute must see.",
+        "date": "Jun 05, 2026",
+        "date_short": "Jun 05",
+        "url": "https://letterboxd.com/nicolep/film/the-cycle-of-love/"
+      },
+      {
+        "title": "No Good Men",
+        "year": "2026",
+        "rating": 3.5,
+        "rating_display": "★★★½",
+        "review": "SFF #1\nFeeling conflicted about this one. On one hand it was laugh out loud funny, an engaging premise and politically important. On the other hand, I’m not sure if the ending leaves Qodrat ‘morally grey’ or simply the same as all other men Naru so actively resists.",
+        "date": "Jun 04, 2026",
+        "date_short": "Jun 04",
+        "url": "https://letterboxd.com/nicolep/film/no-good-men-2026/"
+      },
       {
         "title": "Backrooms",
         "year": "2026",
@@ -32,33 +52,13 @@
         "date": "May 19, 2026",
         "date_short": "May 19",
         "url": "https://letterboxd.com/nicolep/film/the-finisher-jasmin-paris-and-the-barkley/"
-      },
-      {
-        "title": "The Sheep Detectives",
-        "year": "2026",
-        "rating": 5.0,
-        "rating_display": "★★★★★",
-        "review": "That was perfection and you can’t tell me otherwise.\nAlso pour one out for my homie Wilbur, my own winter lamb who sadly didn’t make it 🐑😭",
-        "date": "May 17, 2026",
-        "date_short": "May 17",
-        "url": "https://letterboxd.com/nicolep/film/the-sheep-detectives/"
-      },
-      {
-        "title": "Steel Magnolias",
-        "year": "1989",
-        "rating": 3.0,
-        "rating_display": "★★★",
-        "review": "I never know what’s supposed to be funny on purpose and what’s only funny because I’m watching this 30 years later, ya know?",
-        "date": "May 14, 2026",
-        "date_short": "May 14",
-        "url": "https://letterboxd.com/nicolep/film/steel-magnolias/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Backrooms",
-    "latest_year": "2026",
-    "latest_rating": "★★★½",
-    "latest_review": "I gave it 3 immediately upon exiting the movie but I have continued to think about it since then, so I’m upgrading to 3.5.",
-    "latest_date": "May 30, 2026"
+    "latest_title": "The Cycle of Love",
+    "latest_year": "2025",
+    "latest_rating": "★★★★★",
+    "latest_review": "SFF# 2\nFirst date: chai\nSecond date: meet the parents\nThird date: 6,000 mile journey from India to Sweden.\nSo life affirming and inspiring. This movie gave me goosebumps - an absolute must see.",
+    "latest_date": "Jun 05, 2026"
   }
 }
