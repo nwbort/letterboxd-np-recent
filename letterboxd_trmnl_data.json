@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jun 11, 2026 10:38 AM",
+    "update_time": "Jun 11, 2026 04:04 PM",
     "movies": [
+      {
+        "title": "The Golden Spurtle",
+        "year": "2025",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "Very cosy. Excellent sick day, in-bed comfort watch.",
+        "date": "Jun 11, 2026",
+        "date_short": "Jun 11",
+        "url": "https://letterboxd.com/nicolep/film/the-golden-spurtle/"
+      },
       {
         "title": "The Cycle of Love",
         "year": "2025",
@@ -42,23 +52,13 @@
         "date": "May 24, 2026",
         "date_short": "May 24",
         "url": "https://letterboxd.com/nicolep/film/waking-ned-devine/"
-      },
-      {
-        "title": "The Finisher: Jasmin Paris and the Barkley Marathons",
-        "year": "2025",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "🤘 fuck yeah the girls 🤘 Great inspo to watch during a training block - Jasmin Paris you absolute legend.",
-        "date": "May 19, 2026",
-        "date_short": "May 19",
-        "url": "https://letterboxd.com/nicolep/film/the-finisher-jasmin-paris-and-the-barkley/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "The Cycle of Love",
+    "latest_title": "The Golden Spurtle",
     "latest_year": "2025",
-    "latest_rating": "★★★★★",
-    "latest_review": "SFF# 2\nFirst date: chai\nSecond date: meet the parents\nThird date: 6,000 mile journey from India to Sweden.\nSo life affirming and inspiring. This movie gave me goosebumps - an absolute must see.",
-    "latest_date": "Jun 05, 2026"
+    "latest_rating": "★★★★",
+    "latest_review": "Very cosy. Excellent sick day, in-bed comfort watch.",
+    "latest_date": "Jun 11, 2026"
   }
 }
