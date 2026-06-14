@@ -1,8 +1,38 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jun 14, 2026 09:36 AM",
+    "update_time": "Jun 14, 2026 11:58 AM",
     "movies": [
+      {
+        "title": "Everytime",
+        "year": "2026",
+        "rating": 2.0,
+        "rating_display": "★★",
+        "review": "SFF #5\nA real togs, togs, undies of a storyline. It was generally working until it the last 3rd or so where it took a surrealist turn that felt out of place and completely lost me (not that I really cared very much for the film before then). After that I was simply waiting for the film to end.",
+        "date": "Jun 13, 2026",
+        "date_short": "Jun 13",
+        "url": "https://letterboxd.com/nicolep/film/everytime/"
+      },
+      {
+        "title": "Baby Jackfruit Baby Guava",
+        "year": "2026",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "SFF #4\nSuch a raw insight into the director’s own family dynamics. Complicated, funny and deeply personal, the evolution of each family member over the course of the documentary was something to behold.",
+        "date": "Jun 13, 2026",
+        "date_short": "Jun 13",
+        "url": "https://letterboxd.com/nicolep/film/baby-jackfruit-baby-guava/"
+      },
+      {
+        "title": "American Doctor",
+        "year": "2026",
+        "rating": 4.5,
+        "rating_display": "★★★★½",
+        "review": "SFF #3\nIncredible doco, so moving and (unsurprisingly) extremely hard to watch at times. Very important viewing.",
+        "date": "Jun 13, 2026",
+        "date_short": "Jun 13",
+        "url": "https://letterboxd.com/nicolep/film/american-doctor/"
+      },
       {
         "title": "The Golden Spurtle",
         "year": "2025",
@@ -22,43 +52,13 @@
         "date": "Jun 05, 2026",
         "date_short": "Jun 05",
         "url": "https://letterboxd.com/nicolep/film/the-cycle-of-love/"
-      },
-      {
-        "title": "No Good Men",
-        "year": "2026",
-        "rating": 3.5,
-        "rating_display": "★★★½",
-        "review": "SFF #1\nFeeling conflicted about this one. On one hand it was laugh out loud funny, an engaging premise and politically important. On the other hand, I’m not sure if the ending leaves Qodrat ‘morally grey’ or simply the same as all other men Naru so actively resists.",
-        "date": "Jun 04, 2026",
-        "date_short": "Jun 04",
-        "url": "https://letterboxd.com/nicolep/film/no-good-men-2026/"
-      },
-      {
-        "title": "Backrooms",
-        "year": "2026",
-        "rating": 3.5,
-        "rating_display": "★★★½",
-        "review": "I gave it 3 immediately upon exiting the movie but I have continued to think about it since then, so I’m upgrading to 3.5.",
-        "date": "May 30, 2026",
-        "date_short": "May 30",
-        "url": "https://letterboxd.com/nicolep/film/backrooms-2026/"
-      },
-      {
-        "title": "Waking Ned Devine",
-        "year": "1998",
-        "rating": 4.5,
-        "rating_display": "★★★★½",
-        "review": "Watched this first in High School - not sure why we were watching it at school but I wasn’t complaining. Still just as funny and well worth a rewatch - best to go in without googling the synopsis imo.",
-        "date": "May 24, 2026",
-        "date_short": "May 24",
-        "url": "https://letterboxd.com/nicolep/film/waking-ned-devine/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "The Golden Spurtle",
-    "latest_year": "2025",
-    "latest_rating": "★★★★",
-    "latest_review": "Very cosy. Excellent sick day, in-bed comfort watch.",
-    "latest_date": "Jun 11, 2026"
+    "latest_title": "Everytime",
+    "latest_year": "2026",
+    "latest_rating": "★★",
+    "latest_review": "SFF #5\nA real togs, togs, undies of a storyline. It was generally working until it the last 3rd or so where it took a surrealist turn that felt out of place and completely lost me (not that I really cared very much for the film before then). After that I was simply waiting for the film to end.",
+    "latest_date": "Jun 13, 2026"
   }
 }
