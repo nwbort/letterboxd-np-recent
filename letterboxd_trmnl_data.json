@@ -1,8 +1,38 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jun 19, 2026 10:39 AM",
+    "update_time": "Jun 19, 2026 03:21 PM",
     "movies": [
+      {
+        "title": "Coward",
+        "year": "2026",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "SFF #7\nSo fucking tender. The two main actors put on phenomenal performances and I was hooked. Hoping for a good sob like when watching Close but wasn’t quite as sad, not to say I didn’t shed a few tears.",
+        "date": "Jun 14, 2026",
+        "date_short": "Jun 14",
+        "url": "https://letterboxd.com/nicolep/film/coward-2026/"
+      },
+      {
+        "title": "Summer 2000: The X-Cetra Story",
+        "year": "2026",
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "SFF #6\nWins points for nostalgia value but too much time was spent delving into personal lives in a way that felt unimportant (and at times, unauthentic) compared to the main crux of the doco.",
+        "date": "Jun 14, 2026",
+        "date_short": "Jun 14",
+        "url": "https://letterboxd.com/nicolep/film/summer-2000-the-x-cetra-story/"
+      },
+      {
+        "title": "Obsession",
+        "year": "2025",
+        "rating": 2.0,
+        "rating_display": "★★",
+        "review": "I’m not trying to be contrarian but I genuinely found the middle chunk of this movie *incredibly* boring. I will say, the car jump scare got me real good (I yelled in the cinema) but this was a painful watch and didn’t live up to the hype.",
+        "date": "Jun 19, 2026",
+        "date_short": "Jun 19",
+        "url": "https://letterboxd.com/nicolep/film/obsession-2025/"
+      },
       {
         "title": "Everytime",
         "year": "2026",
@@ -22,43 +52,13 @@
         "date": "Jun 13, 2026",
         "date_short": "Jun 13",
         "url": "https://letterboxd.com/nicolep/film/baby-jackfruit-baby-guava/"
-      },
-      {
-        "title": "American Doctor",
-        "year": "2026",
-        "rating": 4.5,
-        "rating_display": "★★★★½",
-        "review": "SFF #3\nIncredible doco, so moving and (unsurprisingly) extremely hard to watch at times. Very important viewing.",
-        "date": "Jun 13, 2026",
-        "date_short": "Jun 13",
-        "url": "https://letterboxd.com/nicolep/film/american-doctor/"
-      },
-      {
-        "title": "The Golden Spurtle",
-        "year": "2025",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "Very cosy. Excellent sick day, in-bed comfort watch.",
-        "date": "Jun 11, 2026",
-        "date_short": "Jun 11",
-        "url": "https://letterboxd.com/nicolep/film/the-golden-spurtle/"
-      },
-      {
-        "title": "The Cycle of Love",
-        "year": "2025",
-        "rating": 5.0,
-        "rating_display": "★★★★★",
-        "review": "SFF# 2\nFirst date: chai\nSecond date: meet the parents\nThird date: 6,000 mile journey from India to Sweden.\nSo life affirming and inspiring. This movie gave me goosebumps - an absolute must see.",
-        "date": "Jun 05, 2026",
-        "date_short": "Jun 05",
-        "url": "https://letterboxd.com/nicolep/film/the-cycle-of-love/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Everytime",
+    "latest_title": "Coward",
     "latest_year": "2026",
-    "latest_rating": "★★",
-    "latest_review": "SFF #5\nA real togs, togs, undies of a storyline. It was generally working until it the last 3rd or so where it took a surrealist turn that felt out of place and completely lost me (not that I really cared very much for the film before then). After that I was simply waiting for the film to end.",
-    "latest_date": "Jun 13, 2026"
+    "latest_rating": "★★★★",
+    "latest_review": "SFF #7\nSo fucking tender. The two main actors put on phenomenal performances and I was hooked. Hoping for a good sob like when watching Close but wasn’t quite as sad, not to say I didn’t shed a few tears.",
+    "latest_date": "Jun 14, 2026"
   }
 }
