@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jul 23, 2026 06:30 AM",
+    "update_time": "Jul 23, 2026 10:23 AM",
     "movies": [
+      {
+        "title": "Fireworks",
+        "year": "1997",
+        "rating": 2.5,
+        "rating_display": "★★½",
+        "review": "Good movie to watch if you’d like to fall asleep in a cinema. Bad movie to watch if you enjoy having an understanding of timelines.",
+        "date": "Jul 23, 2026",
+        "date_short": "Jul 23",
+        "url": "https://letterboxd.com/nicolep/film/fireworks-1997/"
+      },
       {
         "title": "Coward",
         "year": "2026",
@@ -42,23 +52,13 @@
         "date": "Jun 13, 2026",
         "date_short": "Jun 13",
         "url": "https://letterboxd.com/nicolep/film/everytime/"
-      },
-      {
-        "title": "Baby Jackfruit Baby Guava",
-        "year": "2026",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "SFF #4\nSuch a raw insight into the director’s own family dynamics. Complicated, funny and deeply personal, the evolution of each family member over the course of the documentary was something to behold.",
-        "date": "Jun 13, 2026",
-        "date_short": "Jun 13",
-        "url": "https://letterboxd.com/nicolep/film/baby-jackfruit-baby-guava/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Coward",
-    "latest_year": "2026",
-    "latest_rating": "★★★★",
-    "latest_review": "SFF #7\nSo fucking tender. The two main actors put on phenomenal performances and I was hooked. Hoping for a good sob like when watching Close but wasn’t quite as sad, not to say I didn’t shed a few tears.",
-    "latest_date": "Jun 14, 2026"
+    "latest_title": "Fireworks",
+    "latest_year": "1997",
+    "latest_rating": "★★½",
+    "latest_review": "Good movie to watch if you’d like to fall asleep in a cinema. Bad movie to watch if you enjoy having an understanding of timelines.",
+    "latest_date": "Jul 23, 2026"
   }
 }
