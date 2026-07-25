@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Jul 25, 2026 06:18 AM",
+    "update_time": "Jul 25, 2026 09:48 AM",
     "movies": [
+      {
+        "title": "The Invite",
+        "year": "2026",
+        "rating": 5.0,
+        "rating_display": "★★★★★",
+        "review": "How hot is Penelope Cruz?! This was such a hoot and similar vibe to The Drama in that I spent most of the movie like 🙉😬🙈🫪. Great cast and great performances.",
+        "date": "Jul 24, 2026",
+        "date_short": "Jul 24",
+        "url": "https://letterboxd.com/nicolep/film/the-invite-2026/"
+      },
       {
         "title": "Fireworks",
         "year": "1997",
@@ -42,23 +52,13 @@
         "date": "Jun 19, 2026",
         "date_short": "Jun 19",
         "url": "https://letterboxd.com/nicolep/film/obsession-2025/"
-      },
-      {
-        "title": "Everytime",
-        "year": "2026",
-        "rating": 2.0,
-        "rating_display": "★★",
-        "review": "SFF #5\nA real togs, togs, undies of a storyline. It was generally working until it the last 3rd or so where it took a surrealist turn that felt out of place and completely lost me (not that I really cared very much for the film before then). After that I was simply waiting for the film to end.",
-        "date": "Jun 13, 2026",
-        "date_short": "Jun 13",
-        "url": "https://letterboxd.com/nicolep/film/everytime/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Fireworks",
-    "latest_year": "1997",
-    "latest_rating": "★★½",
-    "latest_review": "Good movie to watch if you’d like to fall asleep in a cinema. Bad movie to watch if you enjoy having an understanding of timelines.",
-    "latest_date": "Jul 23, 2026"
+    "latest_title": "The Invite",
+    "latest_year": "2026",
+    "latest_rating": "★★★★★",
+    "latest_review": "How hot is Penelope Cruz?! This was such a hoot and similar vibe to The Drama in that I spent most of the movie like 🙉😬🙈🫪. Great cast and great performances.",
+    "latest_date": "Jul 24, 2026"
   }
 }
