@@ -45,11 +45,12 @@ https://raw.githubusercontent.com/nwbort/letterboxd-np-recent/main/letterboxd_tr
 
 ## ⚙️ How It Works
 
-1. **Scrape workflow** fetches the latest Letterboxd RSS feed (`scrape.sh`) and commits it to the repo
-2. **Update workflow runs every 2 hours**, parsing the committed RSS feed into movies, ratings, reviews
-3. Updates `letterboxd_trmnl_data.json` (only bumping the timestamp if the data actually changed)
-4. Commits to repository
-5. TRMNL polls the raw GitHub URL
+1. **GitHub Action runs every 2 hours**
+2. Downloads the latest Letterboxd RSS feed (`scrape.sh`) — this file is scratch input, never committed
+3. Parses it into movies, ratings, reviews
+4. Updates `letterboxd_trmnl_data.json` (only bumping the timestamp if the data actually changed)
+5. Commits `letterboxd_trmnl_data.json` to the repository
+6. TRMNL polls the raw GitHub URL
 
 ## 🎨 Customize
 

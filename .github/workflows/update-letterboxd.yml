@@ -30,6 +30,12 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Download latest Letterboxd RSS feed
+        run: |
+          echo "📥 Downloading latest RSS feed from Letterboxd..."
+          chmod +x download.sh scrape.sh
+          ./scrape.sh
+
       - name: Parse and generate TRMNL JSON
         run: |
           echo "🔍 Parsing RSS feed and generating TRMNL data..."
