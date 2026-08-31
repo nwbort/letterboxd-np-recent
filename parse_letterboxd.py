@@ -125,7 +125,6 @@ def format_for_trmnl(activities: List[Dict], limit: int = 5) -> Dict:
     # Format for TRMNL
     merge_vars = {
         'user': 'NicoleP',
-        'update_time': datetime.now().strftime('%b %d, %Y %I:%M %p'),
         'movies': []
     }
 
@@ -205,8 +204,31 @@ def main():
     # Format for TRMNL
     trmnl_data = format_for_trmnl(activities, limit=5)
 
-    # Save to JSON file
+    # Only bump update_time if the actual movie data has changed since the
+    # last run, so the JSON file (and any commit of it) doesn't churn just
+    # because the script ran again.
     output_file = 'letterboxd_trmnl_data.json'
+    update_time = None
+    try:
+        with open(output_file, 'r', encoding='utf-8') as f:
+            previous_data = json.load(f)
+        previous_vars = previous_data.get('merge_variables', {})
+        previous_update_time = previous_vars.pop('update_time', None)
+        if previous_vars == trmnl_data['merge_variables']:
+            update_time = previous_update_time
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+
+    if update_time is None:
+        update_time = datetime.now().strftime('%b %d, %Y %I:%M %p')
+
+    # Re-insert update_time in the same position as before (right after 'user')
+    merge_vars = trmnl_data['merge_variables']
+    reordered = {'user': merge_vars.pop('user'), 'update_time': update_time}
+    reordered.update(merge_vars)
+    trmnl_data['merge_variables'] = reordered
+
+    # Save to JSON file
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(trmnl_data, f, indent=2, ensure_ascii=False)
 

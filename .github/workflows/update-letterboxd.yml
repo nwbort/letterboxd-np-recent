@@ -52,7 +52,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add letterboxd_trmnl_data.json letterboxd.com-ajax-activity-pagination-NicoleP.html
+          git add letterboxd_trmnl_data.json
           git commit -m "🎬 Update Letterboxd data - $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
 
