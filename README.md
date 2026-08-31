@@ -45,24 +45,23 @@ https://raw.githubusercontent.com/nwbort/letterboxd-np-recent/main/letterboxd_tr
 
 ## ⚙️ How It Works
 
-1. **GitHub Action runs every 2 hours**
-2. Downloads latest Letterboxd activity
-3. Parses movies, ratings, reviews
-4. Updates `letterboxd_trmnl_data.json`
-5. Commits to repository
-6. TRMNL polls the raw GitHub URL
+1. **Scrape workflow** fetches the latest Letterboxd RSS feed (`scrape.sh`) and commits it to the repo
+2. **Update workflow runs every 2 hours**, parsing the committed RSS feed into movies, ratings, reviews
+3. Updates `letterboxd_trmnl_data.json` (only bumping the timestamp if the data actually changed)
+4. Commits to repository
+5. TRMNL polls the raw GitHub URL
 
 ## 🎨 Customize
 
 ### Change Username
 
-Edit `.github/workflows/update-letterboxd.yml` line 34:
+Edit `scrape.sh`:
 
 ```bash
-./download.sh 'https://letterboxd.com/ajax/activity-pagination/YOUR_USERNAME/'
+./download.sh 'https://letterboxd.com/YOUR_USERNAME/rss/'
 ```
 
-Also update `parse_letterboxd.py` line 154:
+Also update `parse_letterboxd.py`:
 ```python
 'user': 'YOUR_USERNAME',
 ```

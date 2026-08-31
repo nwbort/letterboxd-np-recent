@@ -30,15 +30,9 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Download latest Letterboxd activity
-        run: |
-          echo "📥 Downloading latest activity from Letterboxd..."
-          chmod +x download.sh
-          ./download.sh 'https://letterboxd.com/ajax/activity-pagination/NicoleP/'
-
       - name: Parse and generate TRMNL JSON
         run: |
-          echo "🔍 Parsing HTML and generating TRMNL data..."
+          echo "🔍 Parsing RSS feed and generating TRMNL data..."
           chmod +x parse_letterboxd.py
           python3 parse_letterboxd.py
 
