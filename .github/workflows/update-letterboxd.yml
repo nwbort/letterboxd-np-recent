@@ -30,15 +30,15 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Download latest Letterboxd activity
+      - name: Download latest Letterboxd RSS feed
         run: |
-          echo "📥 Downloading latest activity from Letterboxd..."
-          chmod +x download.sh
-          ./download.sh 'https://letterboxd.com/ajax/activity-pagination/NicoleP/'
+          echo "📥 Downloading latest RSS feed from Letterboxd..."
+          chmod +x download.sh scrape.sh
+          ./scrape.sh
 
       - name: Parse and generate TRMNL JSON
         run: |
-          echo "🔍 Parsing HTML and generating TRMNL data..."
+          echo "🔍 Parsing RSS feed and generating TRMNL data..."
           chmod +x parse_letterboxd.py
           python3 parse_letterboxd.py
 
@@ -52,7 +52,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add letterboxd_trmnl_data.json letterboxd.com-ajax-activity-pagination-NicoleP.html
+          git add letterboxd_trmnl_data.json
           git commit -m "🎬 Update Letterboxd data - $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
 
