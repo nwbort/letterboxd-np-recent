@@ -1,8 +1,28 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Aug 31, 2026 10:35 PM",
+    "update_time": "Sep 05, 2026 11:35 PM",
     "movies": [
+      {
+        "title": "The Odyssey",
+        "year": "2026",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "Not my favourite Nolan but still enjoyable and engaging and very fun on the big screen (my first ever viewing at IMAX!).",
+        "date": "Aug 29, 2026",
+        "date_short": "Aug 29",
+        "url": "https://letterboxd.com/nicolep/film/the-odyssey-2026/"
+      },
+      {
+        "title": "Zootopia",
+        "year": "2016",
+        "rating": 3.5,
+        "rating_display": "★★★½",
+        "review": "",
+        "date": "Sep 05, 2026",
+        "date_short": "Sep 05",
+        "url": "https://letterboxd.com/nicolep/film/zootopia/"
+      },
       {
         "title": "The Invite",
         "year": "2026",
@@ -32,33 +52,13 @@
         "date": "Aug 26, 2026",
         "date_short": "Aug 26",
         "url": "https://letterboxd.com/nicolep/film/shutter/"
-      },
-      {
-        "title": "The Invite",
-        "year": "2026",
-        "rating": 5.0,
-        "rating_display": "★★★★★",
-        "review": "How hot is Penelope Cruz?! This was such a hoot and similar vibe to The Drama in that I spent most of the movie like 🙉😬🙈🫪. Great cast and great performances.",
-        "date": "Jul 24, 2026",
-        "date_short": "Jul 24",
-        "url": "https://letterboxd.com/nicolep/film/the-invite-2026/"
-      },
-      {
-        "title": "Fireworks",
-        "year": "1997",
-        "rating": 2.5,
-        "rating_display": "★★½",
-        "review": "Good movie to watch if you’d like to fall asleep in a cinema. Bad movie to watch if you enjoy having an understanding of timelines.",
-        "date": "Jul 23, 2026",
-        "date_short": "Jul 23",
-        "url": "https://letterboxd.com/nicolep/film/fireworks-1997/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "The Invite",
+    "latest_title": "The Odyssey",
     "latest_year": "2026",
-    "latest_rating": "★★★★★",
-    "latest_review": "Just as good on the rewatch",
-    "latest_date": "Aug 31, 2026"
+    "latest_rating": "★★★★",
+    "latest_review": "Not my favourite Nolan but still enjoyable and engaging and very fun on the big screen (my first ever viewing at IMAX!).",
+    "latest_date": "Aug 29, 2026"
   }
 }
