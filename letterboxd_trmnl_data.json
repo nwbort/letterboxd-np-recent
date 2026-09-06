@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Sep 05, 2026 11:35 PM",
+    "update_time": "Sep 06, 2026 11:33 PM",
     "movies": [
+      {
+        "title": "Silenced",
+        "year": "2026",
+        "rating": 4.0,
+        "rating_display": "★★★★",
+        "review": "Post-watch debrief with friends is mandatory",
+        "date": "Sep 04, 2026",
+        "date_short": "Sep 04",
+        "url": "https://letterboxd.com/nicolep/film/silenced-2026/"
+      },
       {
         "title": "The Odyssey",
         "year": "2026",
@@ -42,23 +52,13 @@
         "date": "Aug 04, 2026",
         "date_short": "Aug 04",
         "url": "https://letterboxd.com/nicolep/film/amelie/"
-      },
-      {
-        "title": "Shutter",
-        "year": "2004",
-        "rating": 2.5,
-        "rating_display": "★★½",
-        "review": "But the pizza and apple crumble with friends while we watched this was 5 stars <3",
-        "date": "Aug 26, 2026",
-        "date_short": "Aug 26",
-        "url": "https://letterboxd.com/nicolep/film/shutter/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "The Odyssey",
+    "latest_title": "Silenced",
     "latest_year": "2026",
     "latest_rating": "★★★★",
-    "latest_review": "Not my favourite Nolan but still enjoyable and engaging and very fun on the big screen (my first ever viewing at IMAX!).",
-    "latest_date": "Aug 29, 2026"
+    "latest_review": "Post-watch debrief with friends is mandatory",
+    "latest_date": "Sep 04, 2026"
   }
 }
