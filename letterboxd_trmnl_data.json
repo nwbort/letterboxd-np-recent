@@ -1,64 +1,64 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Sep 06, 2026 11:33 PM",
+    "update_time": "Oct 17, 2026 01:29 PM",
     "movies": [
       {
-        "title": "Silenced",
+        "title": "The History of Concrete",
         "year": "2026",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "Post-watch debrief with friends is mandatory",
-        "date": "Sep 04, 2026",
-        "date_short": "Sep 04",
-        "url": "https://letterboxd.com/nicolep/film/silenced-2026/"
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "Does this count as CPD?",
+        "date": "Oct 17, 2026",
+        "date_short": "Oct 17",
+        "url": "https://letterboxd.com/nicolep/film/the-history-of-concrete/"
       },
       {
-        "title": "The Odyssey",
-        "year": "2026",
-        "rating": 4.0,
-        "rating_display": "★★★★",
-        "review": "Not my favourite Nolan but still enjoyable and engaging and very fun on the big screen (my first ever viewing at IMAX!).",
-        "date": "Aug 29, 2026",
-        "date_short": "Aug 29",
-        "url": "https://letterboxd.com/nicolep/film/the-odyssey-2026/"
+        "title": "The Great Arch",
+        "year": "2025",
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "",
+        "date": "Oct 12, 2026",
+        "date_short": "Oct 12",
+        "url": "https://letterboxd.com/nicolep/film/the-great-arch-2025/"
       },
       {
-        "title": "Zootopia",
-        "year": "2016",
+        "title": "Crazy, Stupid, Love.",
+        "year": "2011",
         "rating": 3.5,
         "rating_display": "★★★½",
         "review": "",
-        "date": "Sep 05, 2026",
-        "date_short": "Sep 05",
-        "url": "https://letterboxd.com/nicolep/film/zootopia/"
+        "date": "Oct 09, 2026",
+        "date_short": "Oct 09",
+        "url": "https://letterboxd.com/nicolep/film/crazy-stupid-love/"
       },
       {
-        "title": "The Invite",
-        "year": "2026",
-        "rating": 5.0,
-        "rating_display": "★★★★★",
-        "review": "Just as good on the rewatch",
-        "date": "Aug 31, 2026",
-        "date_short": "Aug 31",
-        "url": "https://letterboxd.com/nicolep/film/the-invite-2026/1/"
-      },
-      {
-        "title": "Amélie",
-        "year": "2001",
+        "title": "The Banshees of Inisherin",
+        "year": "2022",
         "rating": 4.5,
         "rating_display": "★★★★½",
-        "review": "Whimsy™",
-        "date": "Aug 04, 2026",
-        "date_short": "Aug 04",
-        "url": "https://letterboxd.com/nicolep/film/amelie/"
+        "review": "",
+        "date": "Oct 08, 2026",
+        "date_short": "Oct 08",
+        "url": "https://letterboxd.com/nicolep/film/the-banshees-of-inisherin/1/"
+      },
+      {
+        "title": "Train Dreams",
+        "year": "2025",
+        "rating": 5.0,
+        "rating_display": "★★★★★",
+        "review": "",
+        "date": "Oct 06, 2026",
+        "date_short": "Oct 06",
+        "url": "https://letterboxd.com/nicolep/film/train-dreams/1/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Silenced",
+    "latest_title": "The History of Concrete",
     "latest_year": "2026",
-    "latest_rating": "★★★★",
-    "latest_review": "Post-watch debrief with friends is mandatory",
-    "latest_date": "Sep 04, 2026"
+    "latest_rating": "★★★",
+    "latest_review": "Does this count as CPD?",
+    "latest_date": "Oct 17, 2026"
   }
 }
