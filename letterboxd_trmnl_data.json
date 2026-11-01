@@ -1,8 +1,28 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Oct 25, 2026 11:53 PM",
+    "update_time": "Nov 01, 2026 12:44 AM",
     "movies": [
+      {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "year": "2001",
+        "rating": 0,
+        "rating_display": "",
+        "review": "",
+        "date": "Oct 31, 2026",
+        "date_short": "Oct 31",
+        "url": "https://letterboxd.com/nicolep/film/harry-potter-and-the-philosophers-stone/"
+      },
+      {
+        "title": "Primetime",
+        "year": "2026",
+        "rating": 3.5,
+        "rating_display": "★★★½",
+        "review": "Great performances but fell a bit flat for me",
+        "date": "Oct 31, 2026",
+        "date_short": "Oct 31",
+        "url": "https://letterboxd.com/nicolep/film/primetime-2026/"
+      },
       {
         "title": "Sense and Sensibility",
         "year": "2026",
@@ -32,33 +52,13 @@
         "date": "Oct 17, 2026",
         "date_short": "Oct 17",
         "url": "https://letterboxd.com/nicolep/film/the-history-of-concrete/"
-      },
-      {
-        "title": "The Great Arch",
-        "year": "2025",
-        "rating": 3.0,
-        "rating_display": "★★★",
-        "review": "",
-        "date": "Oct 12, 2026",
-        "date_short": "Oct 12",
-        "url": "https://letterboxd.com/nicolep/film/the-great-arch-2025/"
-      },
-      {
-        "title": "Crazy, Stupid, Love.",
-        "year": "2011",
-        "rating": 3.5,
-        "rating_display": "★★★½",
-        "review": "",
-        "date": "Oct 09, 2026",
-        "date_short": "Oct 09",
-        "url": "https://letterboxd.com/nicolep/film/crazy-stupid-love/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Sense and Sensibility",
-    "latest_year": "2026",
-    "latest_rating": "★★★½",
-    "latest_review": "I think I’m just not that into period pieces but happy for Diana Reid though.",
-    "latest_date": "Oct 25, 2026"
+    "latest_title": "Harry Potter and the Philosopher's Stone",
+    "latest_year": "2001",
+    "latest_rating": "",
+    "latest_review": "",
+    "latest_date": "Oct 31, 2026"
   }
 }
