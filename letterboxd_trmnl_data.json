@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Nov 01, 2026 12:44 AM",
+    "update_time": "Nov 05, 2026 05:34 AM",
     "movies": [
+      {
+        "title": "Pressure",
+        "year": "2026",
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "Apple weather is Krick and BOM is Stagg iykyk",
+        "date": "Nov 04, 2026",
+        "date_short": "Nov 04",
+        "url": "https://letterboxd.com/nicolep/film/pressure-2026/"
+      },
       {
         "title": "Harry Potter and the Philosopher's Stone",
         "year": "2001",
@@ -42,23 +52,13 @@
         "date": "Oct 23, 2026",
         "date_short": "Oct 23",
         "url": "https://letterboxd.com/nicolep/film/naza/"
-      },
-      {
-        "title": "The History of Concrete",
-        "year": "2026",
-        "rating": 3.0,
-        "rating_display": "★★★",
-        "review": "Does this count as CPD?",
-        "date": "Oct 17, 2026",
-        "date_short": "Oct 17",
-        "url": "https://letterboxd.com/nicolep/film/the-history-of-concrete/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Harry Potter and the Philosopher's Stone",
-    "latest_year": "2001",
-    "latest_rating": "",
-    "latest_review": "",
-    "latest_date": "Oct 31, 2026"
+    "latest_title": "Pressure",
+    "latest_year": "2026",
+    "latest_rating": "★★★",
+    "latest_review": "Apple weather is Krick and BOM is Stagg iykyk",
+    "latest_date": "Nov 04, 2026"
   }
 }
