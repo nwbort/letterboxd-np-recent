@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Nov 05, 2026 05:34 AM",
+    "update_time": "Nov 08, 2026 12:53 PM",
     "movies": [
+      {
+        "title": "Wild Horse Nine",
+        "year": "2026",
+        "rating": 4.5,
+        "rating_display": "★★★★½",
+        "review": "The moths truly *are* everywhere",
+        "date": "Nov 08, 2026",
+        "date_short": "Nov 08",
+        "url": "https://letterboxd.com/nicolep/film/wild-horse-nine/"
+      },
       {
         "title": "Pressure",
         "year": "2026",
@@ -42,23 +52,13 @@
         "date": "Oct 25, 2026",
         "date_short": "Oct 25",
         "url": "https://letterboxd.com/nicolep/film/sense-and-sensibility-2026/"
-      },
-      {
-        "title": "NAZA",
-        "year": "2026",
-        "rating": 5.0,
-        "rating_display": "★★★★★",
-        "review": "",
-        "date": "Oct 23, 2026",
-        "date_short": "Oct 23",
-        "url": "https://letterboxd.com/nicolep/film/naza/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Pressure",
+    "latest_title": "Wild Horse Nine",
     "latest_year": "2026",
-    "latest_rating": "★★★",
-    "latest_review": "Apple weather is Krick and BOM is Stagg iykyk",
-    "latest_date": "Nov 04, 2026"
+    "latest_rating": "★★★★½",
+    "latest_review": "The moths truly *are* everywhere",
+    "latest_date": "Nov 08, 2026"
   }
 }
