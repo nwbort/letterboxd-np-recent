@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Nov 10, 2026 04:10 PM",
+    "update_time": "Nov 13, 2026 02:26 AM",
     "movies": [
+      {
+        "title": "You Can See Everything",
+        "year": "2026",
+        "rating": 5.0,
+        "rating_display": "★★★★★",
+        "review": "Nothing makes my heart sing more than a movie that inspires an immediate reddit deep dive",
+        "date": "Nov 11, 2026",
+        "date_short": "Nov 11",
+        "url": "https://letterboxd.com/nicolep/film/you-can-see-everything/"
+      },
       {
         "title": "Wicker",
         "year": "2026",
@@ -42,23 +52,13 @@
         "date": "Nov 04, 2026",
         "date_short": "Nov 04",
         "url": "https://letterboxd.com/nicolep/film/pressure-2026/"
-      },
-      {
-        "title": "Harry Potter and the Philosopher's Stone",
-        "year": "2001",
-        "rating": 0,
-        "rating_display": "",
-        "review": "",
-        "date": "Oct 31, 2026",
-        "date_short": "Oct 31",
-        "url": "https://letterboxd.com/nicolep/film/harry-potter-and-the-philosophers-stone/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "Wicker",
+    "latest_title": "You Can See Everything",
     "latest_year": "2026",
-    "latest_rating": "★★★",
-    "latest_review": "Not weird enough??",
-    "latest_date": "Nov 10, 2026"
+    "latest_rating": "★★★★★",
+    "latest_review": "Nothing makes my heart sing more than a movie that inspires an immediate reddit deep dive",
+    "latest_date": "Nov 11, 2026"
   }
 }
