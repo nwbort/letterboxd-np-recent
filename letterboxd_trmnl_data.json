@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Nov 13, 2026 02:26 AM",
+    "update_time": "Nov 15, 2026 05:18 AM",
     "movies": [
+      {
+        "title": "La Bola Negra",
+        "year": "2026",
+        "rating": 5.0,
+        "rating_display": "★★★★★",
+        "review": "Needed a few deep breaths in my seat as the credits rolled. Spectacular.",
+        "date": "Nov 15, 2026",
+        "date_short": "Nov 15",
+        "url": "https://letterboxd.com/nicolep/film/la-bola-negra/"
+      },
       {
         "title": "You Can See Everything",
         "year": "2026",
@@ -42,23 +52,13 @@
         "date": "Nov 08, 2026",
         "date_short": "Nov 08",
         "url": "https://letterboxd.com/nicolep/film/wild-horse-nine/"
-      },
-      {
-        "title": "Pressure",
-        "year": "2026",
-        "rating": 3.0,
-        "rating_display": "★★★",
-        "review": "Apple weather is Krick and BOM is Stagg iykyk",
-        "date": "Nov 04, 2026",
-        "date_short": "Nov 04",
-        "url": "https://letterboxd.com/nicolep/film/pressure-2026/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "You Can See Everything",
+    "latest_title": "La Bola Negra",
     "latest_year": "2026",
     "latest_rating": "★★★★★",
-    "latest_review": "Nothing makes my heart sing more than a movie that inspires an immediate reddit deep dive",
-    "latest_date": "Nov 11, 2026"
+    "latest_review": "Needed a few deep breaths in my seat as the credits rolled. Spectacular.",
+    "latest_date": "Nov 15, 2026"
   }
 }
