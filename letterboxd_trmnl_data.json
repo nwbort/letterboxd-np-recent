@@ -1,8 +1,18 @@
 {
   "merge_variables": {
     "user": "NicoleP",
-    "update_time": "Nov 15, 2026 05:18 AM",
+    "update_time": "Nov 19, 2026 12:33 PM",
     "movies": [
+      {
+        "title": "Bad Apples",
+        "year": "2025",
+        "rating": 3.0,
+        "rating_display": "★★★",
+        "review": "Not bad (apples)",
+        "date": "Nov 19, 2026",
+        "date_short": "Nov 19",
+        "url": "https://letterboxd.com/nicolep/film/bad-apples-2025/"
+      },
       {
         "title": "La Bola Negra",
         "year": "2026",
@@ -42,23 +52,13 @@
         "date": "Nov 09, 2026",
         "date_short": "Nov 09",
         "url": "https://letterboxd.com/nicolep/film/digger-2026/"
-      },
-      {
-        "title": "Wild Horse Nine",
-        "year": "2026",
-        "rating": 4.5,
-        "rating_display": "★★★★½",
-        "review": "The moths truly *are* everywhere",
-        "date": "Nov 08, 2026",
-        "date_short": "Nov 08",
-        "url": "https://letterboxd.com/nicolep/film/wild-horse-nine/"
       }
     ],
     "total_activities": 5,
-    "latest_title": "La Bola Negra",
-    "latest_year": "2026",
-    "latest_rating": "★★★★★",
-    "latest_review": "Needed a few deep breaths in my seat as the credits rolled. Spectacular.",
-    "latest_date": "Nov 15, 2026"
+    "latest_title": "Bad Apples",
+    "latest_year": "2025",
+    "latest_rating": "★★★",
+    "latest_review": "Not bad (apples)",
+    "latest_date": "Nov 19, 2026"
   }
 }
